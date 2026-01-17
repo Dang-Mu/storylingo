@@ -1,0 +1,41 @@
+{
+  "title": "The Rabbit and the Dragon King",
+  "sentences": [
+    {
+      "english": "The Dragon King was sick and needed a rabbit's liver for medicine.",
+      "korean": "용왕은 병이 났고 약으로 토끼의 간이 필요했습니다.",
+      "targetWordEnglish": "medicine",
+      "targetWordKorean": "약"
+    },
+    {
+      "english": "A turtle went to land to trick a rabbit into coming underwater.",
+      "korean": "자라가 육지로 가서 토끼를 속여 물속으로 데려왔습니다.",
+      "targetWordEnglish": "trick",
+      "targetWordKorean": "속여"
+    },
+    {
+      "english": "The rabbit realized the danger and came up with a clever plan.",
+      "korean": "토끼는 위험을 깨닫고 기발한 계획을 생각해 냈습니다.",
+      "targetWordEnglish": "clever",
+      "targetWordKorean": "기발한"
+    },
+    {
+      "english": "He lied that he left his liver back on land to keep it safe.",
+      "korean": "그는 간을 안전하게 보관하기 위해 육지에 두고 왔다고 거짓말을 했습니다.",
+      "targetWordEnglish": "safe",
+      "targetWordKorean": "안전하게"
+    },
+    {
+      "english": "The King let him go back to the forest to get it.",
+      "korean": "왕은 간을 가져오라고 그를 숲으로 돌려보냈습니다.",
+      "targetWordEnglish": "forest",
+      "targetWordKorean": "숲"
+    },
+    {
+      "english": "The rabbit ran away and the turtle returned empty-handed.",
+      "korean": "토끼는 도망쳤고 자라는 빈손으로 돌아왔습니다.",
+      "targetWordEnglish": "empty-handed",
+      "targetWordKorean": "빈손으로"
+    }
+  ]
+}

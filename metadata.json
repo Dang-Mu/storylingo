@@ -1,0 +1,5 @@
+{
+  "name": "StoryLingo",
+  "description": "An interactive English learning app that generates stories and fill-in-the-blank quizzes using AI.",
+  "requestFramePermissions": []
+}

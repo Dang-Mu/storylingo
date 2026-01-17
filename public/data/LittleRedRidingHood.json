@@ -1,0 +1,65 @@
+{
+  "title": "Little Red Riding Hood",
+  "sentences": [
+    {
+      "english": "Little Red Riding Hood walked through the woods to bring food to her grandmother.",
+      "korean": "빨간 모자는 할머니께 음식을 가져다드리기 위해 숲을 걸어갔습니다.",
+      "targetWordEnglish": "bring",
+      "targetWordKorean": "가져다드리기"
+    },
+    {
+      "english": "Her mother warned her not to talk to strangers on the way.",
+      "korean": "그녀의 어머니는 도중에 낯선 사람과 이야기하지 말라고 경고했습니다.",
+      "targetWordEnglish": "warned",
+      "targetWordKorean": "경고했습니다"
+    },
+    {
+      "english": "However, she met a wolf who asked her where she was going.",
+      "korean": "하지만, 그녀는 어디로 가는지 묻는 늑대를 만났습니다.",
+      "targetWordEnglish": "however",
+      "targetWordKorean": "하지만"
+    },
+    {
+      "english": "The wolf took a shortcut and arrived at the grandmother's house first.",
+      "korean": "늑대는 지름길로 가서 할머니 집에 먼저 도착했습니다.",
+      "targetWordEnglish": "shortcut",
+      "targetWordKorean": "지름길"
+    },
+    {
+      "english": "He swallowed the grandmother whole and put on her clothes.",
+      "korean": "그는 할머니를 통째로 삼키고 그녀의 옷을 입었습니다.",
+      "targetWordEnglish": "swallowed",
+      "targetWordKorean": "삼키고"
+    },
+    {
+      "english": "When the girl arrived, she noticed her grandmother looked very strange.",
+      "korean": "소녀가 도착했을 때, 그녀는 할머니가 매우 이상해 보인다는 것을 알아차렸습니다.",
+      "targetWordEnglish": "strange",
+      "targetWordKorean": "이상해"
+    },
+    {
+      "english": "She asked about the big ears, big eyes, and big teeth.",
+      "korean": "그녀는 큰 귀, 큰 눈, 그리고 큰 이빨에 대해 물었습니다.",
+      "targetWordEnglish": "ears",
+      "targetWordKorean": "귀"
+    },
+    {
+      "english": "The wolf jumped out of bed and tried to eat Little Red Riding Hood.",
+      "korean": "늑대는 침대에서 뛰쳐나와 빨간 모자를 잡아먹으려 했습니다.",
+      "targetWordEnglish": "jumped",
+      "targetWordKorean": "뛰쳐나와"
+    },
+    {
+      "english": "A passing woodcutter heard her screams and ran into the house.",
+      "korean": "지나가던 나무꾼이 그녀의 비명 소리를 듣고 집으로 뛰어들어왔습니다.",
+      "targetWordEnglish": "screams",
+      "targetWordKorean": "비명"
+    },
+    {
+      "english": "He saved them and they filled the wolf's belly with heavy stones.",
+      "korean": "그는 그들을 구했고 그들은 늑대의 배를 무거운 돌로 채웠습니다.",
+      "targetWordEnglish": "stones",
+      "targetWordKorean": "돌"
+    }
+  ]
+}

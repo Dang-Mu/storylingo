@@ -1,0 +1,41 @@
+{
+  "title": "The Green Frog",
+  "sentences": [
+    {
+      "english": "A young frog never listened to his mother and always disobeyed.",
+      "korean": "어린 청개구리는 엄마의 말을 절대 듣지 않고 항상 불순종했습니다.",
+      "targetWordEnglish": "disobeyed",
+      "targetWordKorean": "불순종했습니다"
+    },
+    {
+      "english": "If she said go east, he went west.",
+      "korean": "그녀가 동쪽으로 가라고 하면 그는 서쪽으로 갔습니다.",
+      "targetWordEnglish": "west",
+      "targetWordKorean": "서쪽"
+    },
+    {
+      "english": "Before dying, the mother asked to be buried by the river.",
+      "korean": "죽기 전에 엄마는 강가에 묻어달라고 부탁했습니다.",
+      "targetWordEnglish": "buried",
+      "targetWordKorean": "묻어달라고"
+    },
+    {
+      "english": "She thought he would do the opposite and bury her on the hill.",
+      "korean": "그녀는 그가 반대로 행동해서 언덕에 묻어줄 것이라고 생각했습니다.",
+      "targetWordEnglish": "opposite",
+      "targetWordKorean": "반대로"
+    },
+    {
+      "english": "The frog felt guilty and obeyed her literally this time.",
+      "korean": "개구리는 죄책감을 느꼈고 이번에는 그녀의 말 그대로 따랐습니다.",
+      "targetWordEnglish": "guilty",
+      "targetWordKorean": "죄책감을"
+    },
+    {
+      "english": "Whenever it rains, green frogs cry worrying her grave will wash away.",
+      "korean": "비가 올 때마다 청개구리들은 그녀의 무덤이 떠내려갈까 봐 걱정하며 웁니다.",
+      "targetWordEnglish": "wash",
+      "targetWordKorean": "떠내려갈까"
+    }
+  ]
+}

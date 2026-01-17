@@ -1,0 +1,47 @@
+{
+  "title": "The Sun and the Moon",
+  "sentences": [
+    {
+      "english": "A tiger ate a mother who was on her way home to her children.",
+      "korean": "호랑이는 아이들에게 집으로 돌아가던 엄마를 잡아먹었습니다.",
+      "targetWordEnglish": "ate",
+      "targetWordKorean": "잡아먹었습니다"
+    },
+    {
+      "english": "The tiger went to the house disguised as the mother.",
+      "korean": "호랑이는 엄마로 변장하고 집으로 갔습니다.",
+      "targetWordEnglish": "disguised",
+      "targetWordKorean": "변장하고"
+    },
+    {
+      "english": "The brother and sister saw the tiger and climbed a tree for safety.",
+      "korean": "남매는 호랑이를 보고 안전을 위해 나무 위로 올라갔습니다.",
+      "targetWordEnglish": "climbed",
+      "targetWordKorean": "올라갔습니다"
+    },
+    {
+      "english": "They prayed to the heavens for a strong rope to escape.",
+      "korean": "그들은 탈출할 수 있도록 튼튼한 동아줄을 달라고 하늘에 기도했습니다.",
+      "targetWordEnglish": "rope",
+      "targetWordKorean": "동아줄"
+    },
+    {
+      "english": "A rope came down and they went up to the sky.",
+      "korean": "줄이 내려와서 그들은 하늘로 올라갔습니다.",
+      "targetWordEnglish": "sky",
+      "targetWordKorean": "하늘"
+    },
+    {
+      "english": "The tiger tried to follow but fell on a rotten rope.",
+      "korean": "호랑이는 따라가려 했지만 썩은 줄에서 떨어졌습니다.",
+      "targetWordEnglish": "rotten",
+      "targetWordKorean": "썩은"
+    },
+    {
+      "english": "The boy became the sun and the girl became the moon.",
+      "korean": "소년은 해가 되었고 소녀는 달이 되었습니다.",
+      "targetWordEnglish": "moon",
+      "targetWordKorean": "달"
+    }
+  ]
+}

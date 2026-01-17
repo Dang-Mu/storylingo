@@ -1,0 +1,185 @@
+{
+  "title": "Snow White",
+  "sentences": [
+    {
+      "english": "Once upon a time, a queen wished for a daughter with skin as white as snow.",
+      "korean": "옛날 옛적에, 한 왕비가 눈처럼 하얀 피부를 가진 딸을 원했습니다.",
+      "targetWordEnglish": "wished",
+      "targetWordKorean": "원했습니다"
+    },
+    {
+      "english": "Snow White was a princess with skin as white as snow.",
+      "korean": "백설공주는 눈처럼 하얀 피부를 가진 공주였습니다.",
+      "targetWordEnglish": "skin",
+      "targetWordKorean": "피부"
+    },
+    {
+      "english": "She had lips as red as blood and hair as black as ebony.",
+      "korean": "그녀는 피처럼 붉은 입술과 흑단처럼 검은 머리카락을 가졌습니다.",
+      "targetWordEnglish": "ebony",
+      "targetWordKorean": "흑단"
+    },
+    {
+      "english": "Her mother died when she was young, and her father remarried.",
+      "korean": "그녀의 어머니는 그녀가 어렸을 때 돌아가셨고, 아버지는 재혼했습니다.",
+      "targetWordEnglish": "remarried",
+      "targetWordKorean": "재혼했습니다"
+    },
+    {
+      "english": "Her jealous stepmother asked her magic mirror who was the fairest of all.",
+      "korean": "그녀의 질투심 많은 계모는 요술 거울에게 누가 가장 아름다운지 물었습니다.",
+      "targetWordEnglish": "jealous",
+      "targetWordKorean": "질투심 많은"
+    },
+    {
+      "english": "The mirror always told the truth and could not lie.",
+      "korean": "거울은 항상 진실을 말했고 거짓말을 할 수 없었습니다.",
+      "targetWordEnglish": "truth",
+      "targetWordKorean": "진실"
+    },
+    {
+      "english": "For years, the mirror said the queen was the fairest in the land.",
+      "korean": "수년 동안 거울은 왕비가 그 나라에서 가장 아름답다고 말했습니다.",
+      "targetWordEnglish": "fairest",
+      "targetWordKorean": "가장 아름다운"
+    },
+    {
+      "english": "When the mirror said Snow White, the queen ordered a hunter to kill her.",
+      "korean": "거울이 백설공주라고 말하자, 왕비는 사냥꾼에게 그녀를 죽이라고 명령했습니다.",
+      "targetWordEnglish": "ordered",
+      "targetWordKorean": "명령했습니다"
+    },
+    {
+      "english": "The queen demanded the hunter bring back Snow White's heart as proof.",
+      "korean": "왕비는 사냥꾼에게 증거로 백설공주의 심장을 가져오라고 요구했습니다.",
+      "targetWordEnglish": "proof",
+      "targetWordKorean": "증거"
+    },
+    {
+      "english": "The hunter spared her life, and she ran deep into the forest.",
+      "korean": "사냥꾼은 그녀의 목숨을 살려주었고, 그녀는 깊은 숲 속으로 달아났습니다.",
+      "targetWordEnglish": "spared",
+      "targetWordKorean": "살려주었고"
+    },
+    {
+      "english": "The kind hunter brought back the heart of a wild boar instead.",
+      "korean": "친절한 사냥꾼은 대신 야생 멧돼지의 심장을 가져갔습니다.",
+      "targetWordEnglish": "wild",
+      "targetWordKorean": "야생"
+    },
+    {
+      "english": "Snow White wandered through the dark forest, scared and alone.",
+      "korean": "백설공주는 무섭고 혼자서 어두운 숲을 헤매었습니다.",
+      "targetWordEnglish": "wandered",
+      "targetWordKorean": "헤매었습니다"
+    },
+    {
+      "english": "She found a small cottage where seven friendly dwarfs lived.",
+      "korean": "그녀는 일곱 명의 친절한 난쟁이가 사는 작은 오두막을 발견했습니다.",
+      "targetWordEnglish": "cottage",
+      "targetWordKorean": "오두막"
+    },
+    {
+      "english": "The dwarfs worked in a mine digging for diamonds and precious stones.",
+      "korean": "난쟁이들은 다이아몬드와 보석을 캐는 광산에서 일했습니다.",
+      "targetWordEnglish": "mine",
+      "targetWordKorean": "광산"
+    },
+    {
+      "english": "They welcomed Snow White and let her stay in their home.",
+      "korean": "그들은 백설공주를 환영하고 그들의 집에 머물게 해주었습니다.",
+      "targetWordEnglish": "welcomed",
+      "targetWordKorean": "환영했습니다"
+    },
+    {
+      "english": "She cooked and cleaned for them in exchange for shelter.",
+      "korean": "그녀는 숙식을 대가로 그들을 위해 요리하고 청소했습니다.",
+      "targetWordEnglish": "shelter",
+      "targetWordKorean": "숙식"
+    },
+    {
+      "english": "The evil queen disguised herself as an old woman and found the cottage.",
+      "korean": "사악한 왕비는 노파로 변장하여 오두막을 찾아냈습니다.",
+      "targetWordEnglish": "disguised",
+      "targetWordKorean": "변장하여"
+    },
+    {
+      "english": "The dwarfs had warned Snow White never to open the door to strangers.",
+      "korean": "난쟁이들은 백설공주에게 절대 낯선 사람에게 문을 열지 말라고 경고했습니다.",
+      "targetWordEnglish": "strangers",
+      "targetWordKorean": "낯선 사람"
+    },
+    {
+      "english": "She gave Snow White a poisoned apple, which put her into a deep sleep.",
+      "korean": "그녀는 백설공주에게 독이 든 사과를 주었고, 그것은 그녀를 깊은 잠에 빠뜨렸습니다.",
+      "targetWordEnglish": "poisoned",
+      "targetWordKorean": "독이 든"
+    },
+    {
+      "english": "The apple looked delicious, red on one side and yellow on the other.",
+      "korean": "사과는 맛있어 보였고, 한쪽은 빨갛고 다른 쪽은 노란색이었습니다.",
+      "targetWordEnglish": "delicious",
+      "targetWordKorean": "맛있어 보이는"
+    },
+    {
+      "english": "Snow White took one bite and fell to the ground lifeless.",
+      "korean": "백설공주는 한 입 베어 물고 생기 없이 바닥에 쓰러졌습니다.",
+      "targetWordEnglish": "lifeless",
+      "targetWordKorean": "생기 없이"
+    },
+    {
+      "english": "The dwarfs placed her in a glass coffin because she looked so beautiful.",
+      "korean": "난쟁이들은 그녀가 너무 아름다워 보였기 때문에 그녀를 유리 관에 눕혔습니다.",
+      "targetWordEnglish": "coffin",
+      "targetWordKorean": "관"
+    },
+    {
+      "english": "They guarded the coffin day and night in the forest clearing.",
+      "korean": "그들은 숲 속 빈터에서 밤낮으로 관을 지켰습니다.",
+      "targetWordEnglish": "guarded",
+      "targetWordKorean": "지켰습니다"
+    },
+    {
+      "english": "Animals from the forest came to mourn the sleeping princess.",
+      "korean": "숲속의 동물들이 잠든 공주를 애도하러 왔습니다.",
+      "targetWordEnglish": "mourn",
+      "targetWordKorean": "애도하다"
+    },
+    {
+      "english": "A handsome prince saw her and fell in love with her beauty.",
+      "korean": "잘생긴 왕자가 그녀를 보고 그녀의 아름다움에 사랑에 빠졌습니다.",
+      "targetWordEnglish": "beauty",
+      "targetWordKorean": "아름다움"
+    },
+    {
+      "english": "The prince begged the dwarfs to let him take the coffin to his castle.",
+      "korean": "왕자는 난쟁이들에게 관을 자신의 성으로 가져가게 해달라고 간청했습니다.",
+      "targetWordEnglish": "begged",
+      "targetWordKorean": "간청했습니다"
+    },
+    {
+      "english": "His true love's kiss broke the spell and woke her up.",
+      "korean": "그의 진정한 사랑의 키스가 마법을 깨고 그녀를 깨웠습니다.",
+      "targetWordEnglish": "spell",
+      "targetWordKorean": "마법"
+    },
+    {
+      "english": "Snow White opened her eyes and saw the prince smiling at her.",
+      "korean": "백설공주가 눈을 뜨자 왕자가 그녀에게 미소 짓고 있었습니다.",
+      "targetWordEnglish": "smiling",
+      "targetWordKorean": "미소 짓고"
+    },
+    {
+      "english": "The evil queen was punished for her wicked deeds.",
+      "korean": "사악한 왕비는 그녀의 사악한 행동에 대한 벌을 받았습니다.",
+      "targetWordEnglish": "punished",
+      "targetWordKorean": "벌을 받았습니다"
+    },
+    {
+      "english": "Snow White and the prince lived happily ever after with the seven dwarfs nearby.",
+      "korean": "백설공주와 왕자는 일곱 난쟁이 곁에서 오래오래 행복하게 살았습니다.",
+      "targetWordEnglish": "nearby",
+      "targetWordKorean": "곁에서"
+    }
+  ]
+}

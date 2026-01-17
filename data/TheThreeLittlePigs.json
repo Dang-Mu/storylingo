@@ -1,0 +1,185 @@
+{
+  "title": "The Three Little Pigs",
+  "sentences": [
+    {
+      "english": "Once upon a time, there were three little pigs who lived with their mother.",
+      "korean": "옛날 옛적에, 어머니와 함께 사는 아기 돼지 삼형제가 있었습니다.",
+      "targetWordEnglish": "upon",
+      "targetWordKorean": "옛날"
+    },
+    {
+      "english": "The mother pig told her children it was time to leave home.",
+      "korean": "어머니 돼지는 아이들에게 집을 떠날 때가 되었다고 말했습니다.",
+      "targetWordEnglish": "leave",
+      "targetWordKorean": "떠나다"
+    },
+    {
+      "english": "Three little pigs left their mother to build their own homes.",
+      "korean": "아기 돼지 삼형제는 자신들의 집을 짓기 위해 엄마 곁을 떠났습니다.",
+      "targetWordEnglish": "own",
+      "targetWordKorean": "자신들의"
+    },
+    {
+      "english": "She warned them to build strong houses to protect themselves from the wolf.",
+      "korean": "그녀는 그들에게 늑대로부터 자신을 보호하기 위해 튼튼한 집을 짓라고 경고했습니다.",
+      "targetWordEnglish": "protect",
+      "targetWordKorean": "보호하다"
+    },
+    {
+      "english": "The first pig was lazy and didn't want to work hard.",
+      "korean": "첫째 돼지는 게으르고 열심히 일하고 싶지 않았습니다.",
+      "targetWordEnglish": "lazy",
+      "targetWordKorean": "게으른"
+    },
+    {
+      "english": "The first pig built a simple house out of straw very quickly.",
+      "korean": "첫째 돼지는 짚으로 매우 빨리 간단한 집을 지었습니다.",
+      "targetWordEnglish": "simple",
+      "targetWordKorean": "간단한"
+    },
+    {
+      "english": "He finished in just a few hours and went to play.",
+      "korean": "그는 단 몇 시간 만에 끝내고 놀러 갔습니다.",
+      "targetWordEnglish": "finished",
+      "targetWordKorean": "끝냈습니다"
+    },
+    {
+      "english": "The second pig gathered sticks and built a slightly stronger house.",
+      "korean": "둘째 돼지는 나뭇가지를 모아서 조금 더 튼튼한 집을 지었습니다.",
+      "targetWordEnglish": "gathered",
+      "targetWordKorean": "모아서"
+    },
+    {
+      "english": "It took him a whole day, but he was happy with his work.",
+      "korean": "하루 종일 걸렸지만, 그는 자신의 작업에 만족했습니다.",
+      "targetWordEnglish": "whole",
+      "targetWordKorean": "하루 종일"
+    },
+    {
+      "english": "The third pig was the wisest of all and thought carefully.",
+      "korean": "셋째 돼지는 가장 현명했고 신중하게 생각했습니다.",
+      "targetWordEnglish": "wisest",
+      "targetWordKorean": "가장 현명한"
+    },
+    {
+      "english": "The third pig worked hard all day to build a strong house of bricks.",
+      "korean": "셋째 돼지는 튼튼한 벽돌집을 짓기 위해 하루 종일 열심히 일했습니다.",
+      "targetWordEnglish": "bricks",
+      "targetWordKorean": "벽돌"
+    },
+    {
+      "english": "His brothers laughed at him for taking so long.",
+      "korean": "그의 형제들은 그가 너무 오래 걸린다고 비웃었습니다.",
+      "targetWordEnglish": "laughed",
+      "targetWordKorean": "비웃었습니다"
+    },
+    {
+      "english": "But the third pig knew that strong walls would keep him safe.",
+      "korean": "하지만 셋째 돼지는 튼튼한 벽이 자신을 안전하게 지켜줄 것을 알았습니다.",
+      "targetWordEnglish": "walls",
+      "targetWordKorean": "벽"
+    },
+    {
+      "english": "A big bad wolf came and blew down the straw house easily.",
+      "korean": "크고 나쁜 늑대가 와서 짚으로 만든 집을 쉽게 날려버렸습니다.",
+      "targetWordEnglish": "blew",
+      "targetWordKorean": "날려버렸습니다"
+    },
+    {
+      "english": "The wolf huffed and puffed with all his might.",
+      "korean": "늑대는 온 힘을 다해 후후 불었습니다.",
+      "targetWordEnglish": "might",
+      "targetWordKorean": "힘"
+    },
+    {
+      "english": "The first pig ran as fast as he could to his brother's house.",
+      "korean": "첫째 돼지는 최대한 빨리 형의 집으로 달려갔습니다.",
+      "targetWordEnglish": "fast",
+      "targetWordKorean": "빨리"
+    },
+    {
+      "english": "Then he went to the stick house and blew it down too.",
+      "korean": "그러고 나서 그는 나뭇가지 집으로 가서 그것도 날려버렸습니다.",
+      "targetWordEnglish": "too",
+      "targetWordKorean": "그것도"
+    },
+    {
+      "english": "The sticks scattered everywhere as the house collapsed.",
+      "korean": "집이 무너지면서 나뭇가지가 사방으로 흩어졌습니다.",
+      "targetWordEnglish": "collapsed",
+      "targetWordKorean": "무너지다"
+    },
+    {
+      "english": "The two pigs ran to their brother's brick house for safety.",
+      "korean": "두 돼지는 안전을 위해 형의 벽돌집으로 도망쳤습니다.",
+      "targetWordEnglish": "safety",
+      "targetWordKorean": "안전"
+    },
+    {
+      "english": "They were terrified and begged their brother to let them in.",
+      "korean": "그들은 무서워서 형에게 들여보내 달라고 애원했습니다.",
+      "targetWordEnglish": "terrified",
+      "targetWordKorean": "무서워하는"
+    },
+    {
+      "english": "The third pig opened the door and welcomed them inside.",
+      "korean": "셋째 돼지는 문을 열어 그들을 안으로 환영했습니다.",
+      "targetWordEnglish": "welcomed",
+      "targetWordKorean": "환영했습니다"
+    },
+    {
+      "english": "The wolf huffed and puffed but could not destroy the brick house.",
+      "korean": "늑대는 입김을 세게 불었지만 벽돌집을 부술 수 없었습니다.",
+      "targetWordEnglish": "destroy",
+      "targetWordKorean": "부술"
+    },
+    {
+      "english": "He blew and blew until he was completely exhausted.",
+      "korean": "그는 완전히 지칠 때까지 계속 불었습니다.",
+      "targetWordEnglish": "exhausted",
+      "targetWordKorean": "지친"
+    },
+    {
+      "english": "The angry wolf decided to find another way inside.",
+      "korean": "화난 늑대는 안으로 들어갈 다른 방법을 찾기로 결심했습니다.",
+      "targetWordEnglish": "decided",
+      "targetWordKorean": "결심했습니다"
+    },
+    {
+      "english": "He tried to climb down the chimney to get inside.",
+      "korean": "그는 안으로 들어가기 위해 굴뚝을 타고 내려오려 했습니다.",
+      "targetWordEnglish": "chimney",
+      "targetWordKorean": "굴뚝"
+    },
+    {
+      "english": "But the clever pig heard the wolf's footsteps on the roof.",
+      "korean": "하지만 영리한 돼지는 지붕 위에서 늑대의 발소리를 들었습니다.",
+      "targetWordEnglish": "footsteps",
+      "targetWordKorean": "발소리"
+    },
+    {
+      "english": "The pigs made a fire and the wolf fell into a pot of boiling water.",
+      "korean": "돼지들은 불을 피웠고 늑대는 끓는 물 솥에 빠졌습니다.",
+      "targetWordEnglish": "boiling",
+      "targetWordKorean": "끓는"
+    },
+    {
+      "english": "The wolf ran away howling and never came back again.",
+      "korean": "늑대는 울부짖으며 도망쳤고 다시는 돌아오지 않았습니다.",
+      "targetWordEnglish": "howling",
+      "targetWordKorean": "울부짖으며"
+    },
+    {
+      "english": "The first two pigs learned that hard work pays off in the end.",
+      "korean": "처음 두 돼지는 노력이 결국 결실을 맺는다는 것을 배웠습니다.",
+      "targetWordEnglish": "pays off",
+      "targetWordKorean": "결실을 맺다"
+    },
+    {
+      "english": "The three brothers lived safely together in the brick house forever.",
+      "korean": "삼형제는 벽돌집에서 영원히 안전하게 함께 살았습니다.",
+      "targetWordEnglish": "forever",
+      "targetWordKorean": "영원히"
+    }
+  ]
+}

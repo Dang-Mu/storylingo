@@ -1,0 +1,77 @@
+{
+  "title": "Cinderella",
+  "sentences": [
+    {
+      "english": "Cinderella lived in a large house with her wicked stepmother and two stepsisters.",
+      "korean": "신데렐라는 못된 계모와 두 의붓자매와 함께 큰 집에서 살았습니다.",
+      "targetWordEnglish": "wicked",
+      "targetWordKorean": "못된"
+    },
+    {
+      "english": "They treated her poorly and made her do all the difficult housework.",
+      "korean": "그들은 그녀를 형편없이 대했고 모든 힘든 집안일을 하게 했습니다.",
+      "targetWordEnglish": "housework",
+      "targetWordKorean": "집안일"
+    },
+    {
+      "english": "One day, an invitation to a grand royal ball arrived at the house.",
+      "korean": "어느 날, 성대한 왕실 무도회 초대장이 집에 도착했습니다.",
+      "targetWordEnglish": "invitation",
+      "targetWordKorean": "초대장"
+    },
+    {
+      "english": "Cinderella wanted to go, but her stepmother forbade her from attending.",
+      "korean": "신데렐라는 가고 싶었지만, 계모는 그녀가 참석하는 것을 금지했습니다.",
+      "targetWordEnglish": "forbade",
+      "targetWordKorean": "금지했습니다"
+    },
+    {
+      "english": "She was crying in the garden when her fairy godmother suddenly appeared.",
+      "korean": "그녀가 정원에서 울고 있을 때 요정 대모가 갑자기 나타났습니다.",
+      "targetWordEnglish": "appeared",
+      "targetWordKorean": "나타났습니다"
+    },
+    {
+      "english": "The fairy waved her wand and turned a pumpkin into a magnificent carriage.",
+      "korean": "요정은 지팡이를 휘둘러 호박을 웅장한 마차로 바꾸었습니다.",
+      "targetWordEnglish": "magnificent",
+      "targetWordKorean": "웅장한"
+    },
+    {
+      "english": "She gave Cinderella a beautiful blue dress and a pair of glass slippers.",
+      "korean": "그녀는 신데렐라에게 아름다운 파란색 드레스와 유리 구두 한 켤레를 주었습니다.",
+      "targetWordEnglish": "slippers",
+      "targetWordKorean": "구두"
+    },
+    {
+      "english": "Cinderella danced with the prince, but she had to leave before midnight.",
+      "korean": "신데렐라는 왕자와 춤을 추었지만, 자정이 되기 전에 떠나야 했습니다.",
+      "targetWordEnglish": "midnight",
+      "targetWordKorean": "자정"
+    },
+    {
+      "english": "In her haste, she lost one of her glass slippers on the stairs.",
+      "korean": "서두르던 중에, 그녀는 계단에서 유리 구두 한 짝을 잃어버렸습니다.",
+      "targetWordEnglish": "haste",
+      "targetWordKorean": "서두름"
+    },
+    {
+      "english": "The prince searched the entire kingdom to find the owner of the shoe.",
+      "korean": "왕자는 그 구두의 주인을 찾기 위해 온 왕국을 뒤졌습니다.",
+      "targetWordEnglish": "entire",
+      "targetWordKorean": "온"
+    },
+    {
+      "english": "The slipper fit Cinderella perfectly, and the prince recognized her immediately.",
+      "korean": "구두는 신데렐라에게 완벽하게 맞았고, 왕자는 즉시 그녀를 알아보았습니다.",
+      "targetWordEnglish": "recognized",
+      "targetWordKorean": "알아보았습니다"
+    },
+    {
+      "english": "They married and lived happily ever after in the castle.",
+      "korean": "그들은 결혼해서 성에서 오래오래 행복하게 살았습니다.",
+      "targetWordEnglish": "happily",
+      "targetWordKorean": "행복하게"
+    }
+  ]
+}

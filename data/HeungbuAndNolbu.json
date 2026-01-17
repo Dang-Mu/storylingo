@@ -1,0 +1,131 @@
+{
+  "title": "Heungbu and Nolbu",
+  "sentences": [
+    {
+      "english": "Long ago in Korea, there lived two brothers with very different hearts.",
+      "korean": "오래전 한국에 마음이 매우 다른 두 형제가 살았습니다.",
+      "targetWordEnglish": "hearts",
+      "targetWordKorean": "마음"
+    },
+    {
+      "english": "Heungbu was poor but kind, while his older brother Nolbu was rich and greedy.",
+      "korean": "흥부는 가난하지만 착했고, 그의 형 놀부는 부자이고 욕심이 많았습니다.",
+      "targetWordEnglish": "greedy",
+      "targetWordKorean": "욕심이 많은"
+    },
+    {
+      "english": "Nolbu kicked his brother out and kept all their father's inheritance.",
+      "korean": "놀부는 동생을 쫓아내고 아버지의 유산을 모두 가져갔습니다.",
+      "targetWordEnglish": "inheritance",
+      "targetWordKorean": "유산"
+    },
+    {
+      "english": "Heungbu and his family lived in a small hut and often went hungry.",
+      "korean": "흥부와 그의 가족은 작은 오두막에서 살았고 자주 굶었습니다.",
+      "targetWordEnglish": "hut",
+      "targetWordKorean": "오두막"
+    },
+    {
+      "english": "Despite their poverty, Heungbu always helped others in need.",
+      "korean": "가난에도 불구하고, 흥부는 항상 어려운 사람들을 도왔습니다.",
+      "targetWordEnglish": "poverty",
+      "targetWordKorean": "가난"
+    },
+    {
+      "english": "One day, Heungbu found a swallow with a broken leg and fixed it with care.",
+      "korean": "어느 날, 흥부는 다리가 부러진 제비를 발견하고 정성껏 고쳐주었습니다.",
+      "targetWordEnglish": "broken",
+      "targetWordKorean": "부러진"
+    },
+    {
+      "english": "He made a tiny splint and wrapped the leg gently with cloth.",
+      "korean": "그는 작은 부목을 만들어 천으로 부드럽게 다리를 감쌌습니다.",
+      "targetWordEnglish": "splint",
+      "targetWordKorean": "부목"
+    },
+    {
+      "english": "The swallow flew away in the fall and returned the next spring.",
+      "korean": "제비는 가을에 날아갔다가 다음 해 봄에 돌아왔습니다.",
+      "targetWordEnglish": "returned",
+      "targetWordKorean": "돌아왔습니다"
+    },
+    {
+      "english": "The swallow returned the next spring and gave him a magical gourd seed.",
+      "korean": "제비는 다음 해 봄에 돌아와 그에게 마법의 박 씨앗을 주었습니다.",
+      "targetWordEnglish": "seed",
+      "targetWordKorean": "씨앗"
+    },
+    {
+      "english": "Heungbu planted the seed and huge gourds grew on the vine.",
+      "korean": "흥부는 씨앗을 심었고 덩굴에 거대한 박이 자랐습니다.",
+      "targetWordEnglish": "vine",
+      "targetWordKorean": "덩굴"
+    },
+    {
+      "english": "The whole family gathered excitedly to open the mysterious gourds.",
+      "korean": "온 가족이 신비로운 박을 열기 위해 신나게 모였습니다.",
+      "targetWordEnglish": "mysterious",
+      "targetWordKorean": "신비로운"
+    },
+    {
+      "english": "When Heungbu opened the large gourds, gold and jewels poured out, making him rich.",
+      "korean": "흥부가 큰 박을 열자 금과 보석이 쏟아져 나와 그를 부자로 만들었습니다.",
+      "targetWordEnglish": "poured",
+      "targetWordKorean": "쏟아져 나왔습니다"
+    },
+    {
+      "english": "Another gourd contained servants and beautiful furniture for their new house.",
+      "korean": "또 다른 박에는 새 집을 위한 하인들과 아름다운 가구가 들어있었습니다.",
+      "targetWordEnglish": "furniture",
+      "targetWordKorean": "가구"
+    },
+    {
+      "english": "News of Heungbu's fortune spread quickly throughout the village.",
+      "korean": "흥부의 재산에 대한 소식이 마을 전체에 빠르게 퍼졌습니다.",
+      "targetWordEnglish": "fortune",
+      "targetWordKorean": "재산"
+    },
+    {
+      "english": "Jealous Nolbu broke a swallow's leg on purpose to get a reward too.",
+      "korean": "질투가 난 놀부는 보상을 받기 위해 고의로 제비의 다리를 부러뜨렸습니다.",
+      "targetWordEnglish": "purpose",
+      "targetWordKorean": "고의로"
+    },
+    {
+      "english": "He pretended to heal the leg, hoping for the same magical seeds.",
+      "korean": "그는 같은 마법의 씨앗을 바라며 다리를 치료하는 척했습니다.",
+      "targetWordEnglish": "pretended",
+      "targetWordKorean": "척했습니다"
+    },
+    {
+      "english": "The swallow returned to Nolbu with a seed the following spring.",
+      "korean": "제비는 다음 해 봄에 씨앗을 가지고 놀부에게 돌아왔습니다.",
+      "targetWordEnglish": "following",
+      "targetWordKorean": "다음"
+    },
+    {
+      "english": "However, his gourds contained scary goblins that punished him for his bad deeds.",
+      "korean": "하지만, 그의 박에는 그의 나쁜 행동에 대해 벌을 주는 무서운 도깨비들이 들어있었습니다.",
+      "targetWordEnglish": "punished",
+      "targetWordKorean": "벌을 주었습니다"
+    },
+    {
+      "english": "The goblins destroyed his house and took away all his wealth.",
+      "korean": "도깨비들은 그의 집을 부수고 모든 재산을 가져갔습니다.",
+      "targetWordEnglish": "destroyed",
+      "targetWordKorean": "부수다"
+    },
+    {
+      "english": "Nolbu became as poor as his brother once was.",
+      "korean": "놀부는 한때 동생이 그랬던 것처럼 가난해졌습니다.",
+      "targetWordEnglish": "once",
+      "targetWordKorean": "한때"
+    },
+    {
+      "english": "Nolbu apologized to his brother and they lived happily together.",
+      "korean": "놀부는 동생에게 사과했고 그들은 함께 행복하게 살았습니다.",
+      "targetWordEnglish": "apologized",
+      "targetWordKorean": "사과했습니다"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "The Tiger and the Dried Persimmon",
+  "sentences": [
+    {
+      "english": "A tiger came to a village to eat a crying baby.",
+      "korean": "호랑이가 우는 아기를 잡아먹으러 마을에 왔습니다.",
+      "targetWordEnglish": "village",
+      "targetWordKorean": "마을"
+    },
+    {
+      "english": "The mother said \"Here comes a tiger!\" but the baby didn\'t stop.",
+      "korean": "엄마가 \"호랑이가 온다!\"라고 말했지만 아기는 멈추지 않았습니다.",
+      "targetWordEnglish": "stop",
+      "targetWordKorean": "멈추지"
+    },
+    {
+      "english": "She said \"Here is a dried persimmon!\" and the baby stopped crying.",
+      "korean": "그녀가 \"여기 곶감이 있다!\"라고 말하자 아기는 울음을 그쳤습니다.",
+      "targetWordEnglish": "crying",
+      "targetWordKorean": "울음을"
+    },
+    {
+      "english": "The tiger thought the persimmon was a monster scarier than him.",
+      "korean": "호랑이는 곶감이 자신보다 더 무서운 괴물이라고 생각했습니다.",
+      "targetWordEnglish": "monster",
+      "targetWordKorean": "괴물"
+    },
+    {
+      "english": "A cattle thief jumped on the tiger's back, thinking it was a cow.",
+      "korean": "소 도둑이 소인 줄 알고 호랑이 등 위로 뛰어올랐습니다.",
+      "targetWordEnglish": "thief",
+      "targetWordKorean": "도둑"
+    },
+    {
+      "english": "The tiger ran away terrified of the \"dried persimmon\" on his back.",
+      "korean": "호랑이는 등 뒤에 있는 \"곶감\"을 무서워하며 도망쳤습니다.",
+      "targetWordEnglish": "terrified",
+      "targetWordKorean": "무서워하며"
+    }
+  ]
+}

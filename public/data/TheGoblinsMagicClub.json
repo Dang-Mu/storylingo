@@ -1,0 +1,41 @@
+{
+  "title": "The Goblin's Magic Club",
+  "sentences": [
+    {
+      "english": "A kind woodcutter dropped a nut and startled some goblins.",
+      "korean": "착한 나무꾼이 개암을 떨어뜨려 도깨비들을 놀라게 했습니다.",
+      "targetWordEnglish": "startled",
+      "targetWordKorean": "놀라게 했습니다"
+    },
+    {
+      "english": "They ran away in fear and left a magic club behind.",
+      "korean": "그들은 두려움에 도망치며 마법 방망이를 뒤에 남겨두었습니다.",
+      "targetWordEnglish": "fear",
+      "targetWordKorean": "두려움"
+    },
+    {
+      "english": "The club made gold appear when he tapped it on the ground.",
+      "korean": "방망이는 땅에 두드리자 금이 나오게 했습니다.",
+      "targetWordEnglish": "tapped",
+      "targetWordKorean": "두드리자"
+    },
+    {
+      "english": "He became rich and his greedy neighbor tried to do the same.",
+      "korean": "그는 부자가 되었고 욕심 많은 이웃이 똑같이 하려고 했습니다.",
+      "targetWordEnglish": "neighbor",
+      "targetWordKorean": "이웃"
+    },
+    {
+      "english": "The neighbor met the goblins but they beat him up instead.",
+      "korean": "이웃은 도깨비들을 만났지만 대신 두들겨 맞았습니다.",
+      "targetWordEnglish": "instead",
+      "targetWordKorean": "대신"
+    },
+    {
+      "english": "The greedy man learned his lesson and apologized.",
+      "korean": "욕심쟁이는 교훈을 얻고 사과했습니다.",
+      "targetWordEnglish": "lesson",
+      "targetWordKorean": "교훈"
+    }
+  ]
+}

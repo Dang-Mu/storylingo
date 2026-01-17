@@ -1,0 +1,65 @@
+{
+  "title": "Snow White",
+  "sentences": [
+    {
+      "english": "Snow White was a princess with skin as white as snow.",
+      "korean": "백설공주는 눈처럼 하얀 피부를 가진 공주였습니다.",
+      "targetWordEnglish": "skin",
+      "targetWordKorean": "피부"
+    },
+    {
+      "english": "Her jealous stepmother asked her magic mirror who was the fairest of all.",
+      "korean": "그녀의 질투심 많은 계모는 요술 거울에게 누가 가장 아름다운지 물었습니다.",
+      "targetWordEnglish": "jealous",
+      "targetWordKorean": "질투심 많은"
+    },
+    {
+      "english": "When the mirror said Snow White, the queen ordered a hunter to kill her.",
+      "korean": "거울이 백설공주라고 말하자, 왕비는 사냥꾼에게 그녀를 죽이라고 명령했습니다.",
+      "targetWordEnglish": "ordered",
+      "targetWordKorean": "명령했습니다"
+    },
+    {
+      "english": "The hunter spared her life, and she ran deep into the forest.",
+      "korean": "사냥꾼은 그녀의 목숨을 살려주었고, 그녀는 깊은 숲 속으로 달아났습니다.",
+      "targetWordEnglish": "spared",
+      "targetWordKorean": "살려주었고"
+    },
+    {
+      "english": "She found a small cottage where seven friendly dwarfs lived.",
+      "korean": "그녀는 일곱 명의 친절한 난쟁이가 사는 작은 오두막을 발견했습니다.",
+      "targetWordEnglish": "cottage",
+      "targetWordKorean": "오두막"
+    },
+    {
+      "english": "The evil queen disguised herself as an old woman and found the cottage.",
+      "korean": "사악한 왕비는 노파로 변장하여 오두막을 찾아냈습니다.",
+      "targetWordEnglish": "disguised",
+      "targetWordKorean": "변장하여"
+    },
+    {
+      "english": "She gave Snow White a poisoned apple, which put her into a deep sleep.",
+      "korean": "그녀는 백설공주에게 독이 든 사과를 주었고, 그것은 그녀를 깊은 잠에 빠뜨렸습니다.",
+      "targetWordEnglish": "poisoned",
+      "targetWordKorean": "독이 든"
+    },
+    {
+      "english": "The dwarfs placed her in a glass coffin because she looked so beautiful.",
+      "korean": "난쟁이들은 그녀가 너무 아름다워 보였기 때문에 그녀를 유리 관에 눕혔습니다.",
+      "targetWordEnglish": "coffin",
+      "targetWordKorean": "관"
+    },
+    {
+      "english": "A handsome prince saw her and fell in love with her beauty.",
+      "korean": "잘생긴 왕자가 그녀를 보고 그녀의 아름다움에 사랑에 빠졌습니다.",
+      "targetWordEnglish": "beauty",
+      "targetWordKorean": "아름다움"
+    },
+    {
+      "english": "His true love's kiss broke the spell and woke her up.",
+      "korean": "그의 진정한 사랑의 키스가 마법을 깨고 그녀를 깨웠습니다.",
+      "targetWordEnglish": "spell",
+      "targetWordKorean": "마법"
+    }
+  ]
+}

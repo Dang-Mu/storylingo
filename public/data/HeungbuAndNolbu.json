@@ -1,0 +1,47 @@
+{
+  "title": "Heungbu and Nolbu",
+  "sentences": [
+    {
+      "english": "Heungbu was poor but kind, while his older brother Nolbu was rich and greedy.",
+      "korean": "흥부는 가난하지만 착했고, 그의 형 놀부는 부자이고 욕심이 많았습니다.",
+      "targetWordEnglish": "greedy",
+      "targetWordKorean": "욕심이 많은"
+    },
+    {
+      "english": "One day, Heungbu found a swallow with a broken leg and fixed it with care.",
+      "korean": "어느 날, 흥부는 다리가 부러진 제비를 발견하고 정성껏 고쳐주었습니다.",
+      "targetWordEnglish": "broken",
+      "targetWordKorean": "부러진"
+    },
+    {
+      "english": "The swallow returned the next spring and gave him a magical gourd seed.",
+      "korean": "제비는 다음 해 봄에 돌아와 그에게 마법의 박 씨앗을 주었습니다.",
+      "targetWordEnglish": "seed",
+      "targetWordKorean": "씨앗"
+    },
+    {
+      "english": "When Heungbu opened the large gourds, gold and jewels poured out, making him rich.",
+      "korean": "흥부가 큰 박을 열자 금과 보석이 쏟아져 나와 그를 부자로 만들었습니다.",
+      "targetWordEnglish": "poured",
+      "targetWordKorean": "쏟아져 나왔습니다"
+    },
+    {
+      "english": "Jealous Nolbu broke a swallow's leg on purpose to get a reward too.",
+      "korean": "질투가 난 놀부는 보상을 받기 위해 고의로 제비의 다리를 부러뜨렸습니다.",
+      "targetWordEnglish": "purpose",
+      "targetWordKorean": "고의로"
+    },
+    {
+      "english": "However, his gourds contained scary goblins that punished him for his bad deeds.",
+      "korean": "하지만, 그의 박에는 그의 나쁜 행동에 대해 벌을 주는 무서운 도깨비들이 들어있었습니다.",
+      "targetWordEnglish": "punished",
+      "targetWordKorean": "벌을 주었습니다"
+    },
+    {
+      "english": "Nolbu apologized to his brother and they lived happily together.",
+      "korean": "놀부는 동생에게 사과했고 그들은 함께 행복하게 살았습니다.",
+      "targetWordEnglish": "apologized",
+      "targetWordKorean": "사과했습니다"
+    }
+  ]
+}

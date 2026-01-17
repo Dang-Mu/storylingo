@@ -1,0 +1,41 @@
+{
+  "title": "Sim Cheong",
+  "sentences": [
+    {
+      "english": "Sim Cheong's father was blind and needed rice offering to regain sight.",
+      "korean": "심청의 아버지는 눈이 멀었고 시력을 되찾기 위해 공양미가 필요했습니다.",
+      "targetWordEnglish": "offering",
+      "targetWordKorean": "공양"
+    },
+    {
+      "english": "She sacrificed herself to the sea god in exchange for the rice.",
+      "korean": "그녀는 쌀을 대가로 바다 신에게 자신을 희생했습니다.",
+      "targetWordEnglish": "exchange",
+      "targetWordKorean": "대가"
+    },
+    {
+      "english": "She jumped into the sea and woke up in an underwater palace.",
+      "korean": "그녀는 바다로 뛰어들었고 수중 궁전에서 깨어났습니다.",
+      "targetWordEnglish": "underwater",
+      "targetWordKorean": "수중"
+    },
+    {
+      "english": "The king was moved by her filial piety and sent her back in a lotus flower.",
+      "korean": "왕은 그녀의 효심에 감동하여 그녀를 연꽃에 태워 돌려보냈습니다.",
+      "targetWordEnglish": "piety",
+      "targetWordKorean": "효심"
+    },
+    {
+      "english": "She became the queen and held a banquet for blind men.",
+      "korean": "그녀는 왕비가 되었고 맹인들을 위한 연회를 열었습니다.",
+      "targetWordEnglish": "banquet",
+      "targetWordKorean": "연회"
+    },
+    {
+      "english": "Her father came, opened his eyes, and saw his daughter again.",
+      "korean": "그녀의 아버지가 와서 눈을 뜨고 딸을 다시 보았습니다.",
+      "targetWordEnglish": "again",
+      "targetWordKorean": "다시"
+    }
+  ]
+}

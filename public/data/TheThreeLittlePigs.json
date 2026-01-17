@@ -1,0 +1,65 @@
+{
+  "title": "The Three Little Pigs",
+  "sentences": [
+    {
+      "english": "Three little pigs left their mother to build their own homes.",
+      "korean": "아기 돼지 삼형제는 자신들의 집을 짓기 위해 엄마 곁을 떠났습니다.",
+      "targetWordEnglish": "own",
+      "targetWordKorean": "자신들의"
+    },
+    {
+      "english": "The first pig built a simple house out of straw very quickly.",
+      "korean": "첫째 돼지는 짚으로 매우 빨리 간단한 집을 지었습니다.",
+      "targetWordEnglish": "simple",
+      "targetWordKorean": "간단한"
+    },
+    {
+      "english": "The second pig gathered sticks and built a slightly stronger house.",
+      "korean": "둘째 돼지는 나뭇가지를 모아서 조금 더 튼튼한 집을 지었습니다.",
+      "targetWordEnglish": "gathered",
+      "targetWordKorean": "모아서"
+    },
+    {
+      "english": "The third pig worked hard all day to build a strong house of bricks.",
+      "korean": "셋째 돼지는 튼튼한 벽돌집을 짓기 위해 하루 종일 열심히 일했습니다.",
+      "targetWordEnglish": "bricks",
+      "targetWordKorean": "벽돌"
+    },
+    {
+      "english": "A big bad wolf came and blew down the straw house easily.",
+      "korean": "크고 나쁜 늑대가 와서 짚으로 만든 집을 쉽게 날려버렸습니다.",
+      "targetWordEnglish": "blew",
+      "targetWordKorean": "날려버렸습니다"
+    },
+    {
+      "english": "Then he went to the stick house and blew it down too.",
+      "korean": "그러고 나서 그는 나뭇가지 집으로 가서 그것도 날려버렸습니다.",
+      "targetWordEnglish": "too",
+      "targetWordKorean": "그것도"
+    },
+    {
+      "english": "The two pigs ran to their brother's brick house for safety.",
+      "korean": "두 돼지는 안전을 위해 형의 벽돌집으로 도망쳤습니다.",
+      "targetWordEnglish": "safety",
+      "targetWordKorean": "안전"
+    },
+    {
+      "english": "The wolf huffed and puffed but could not destroy the brick house.",
+      "korean": "늑대는 입김을 세게 불었지만 벽돌집을 부술 수 없었습니다.",
+      "targetWordEnglish": "destroy",
+      "targetWordKorean": "부술"
+    },
+    {
+      "english": "He tried to climb down the chimney to get inside.",
+      "korean": "그는 안으로 들어가기 위해 굴뚝을 타고 내려오려 했습니다.",
+      "targetWordEnglish": "chimney",
+      "targetWordKorean": "굴뚝"
+    },
+    {
+      "english": "The pigs made a fire and the wolf fell into a pot of boiling water.",
+      "korean": "돼지들은 불을 피웠고 늑대는 끓는 물 솥에 빠졌습니다.",
+      "targetWordEnglish": "boiling",
+      "targetWordKorean": "끓는"
+    }
+  ]
+}

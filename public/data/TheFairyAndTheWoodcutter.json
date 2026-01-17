@@ -1,0 +1,41 @@
+{
+  "title": "The Fairy and the Woodcutter",
+  "sentences": [
+    {
+      "english": "A woodcutter hid a fairy's winged clothes so she couldn't fly.",
+      "korean": "나무꾼은 선녀가 날지 못하도록 그녀의 날개 옷을 숨겼습니다.",
+      "targetWordEnglish": "hid",
+      "targetWordKorean": "숨겼습니다"
+    },
+    {
+      "english": "They married and had two lovely children together.",
+      "korean": "그들은 결혼해서 사랑스러운 두 아이를 낳았습니다.",
+      "targetWordEnglish": "lovely",
+      "targetWordKorean": "사랑스러운"
+    },
+    {
+      "english": "He gave her the clothes back too early, before having a third child.",
+      "korean": "그는 셋째 아이를 갖기 전, 너무 일찍 그녀에게 옷을 돌려주었습니다.",
+      "targetWordEnglish": "early",
+      "targetWordKorean": "일찍"
+    },
+    {
+      "english": "She flew back to heaven holding the children in her arms.",
+      "korean": "그녀는 아이들을 품에 안고 하늘로 다시 날아갔습니다.",
+      "targetWordEnglish": "holding",
+      "targetWordKorean": "안고"
+    },
+    {
+      "english": "The woodcutter was very sad and missed his family.",
+      "korean": "나무꾼은 매우 슬퍼했고 가족을 그리워했습니다.",
+      "targetWordEnglish": "missed",
+      "targetWordKorean": "그리워했습니다"
+    },
+    {
+      "english": "He climbed a beanstalk to find them in the sky kingdom.",
+      "korean": "그는 하늘나라에서 그들을 찾기 위해 콩나무를 탔습니다.",
+      "targetWordEnglish": "kingdom",
+      "targetWordKorean": "나라"
+    }
+  ]
+}

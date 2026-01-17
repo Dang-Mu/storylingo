@@ -1,0 +1,41 @@
+{
+  "title": "The Snail Bride",
+  "sentences": [
+    {
+      "english": "A lonely farmer found a large snail and brought it home.",
+      "korean": "외로운 농부가 큰 우렁이를 발견하고 집으로 가져왔습니다.",
+      "targetWordEnglish": "lonely",
+      "targetWordKorean": "외로운"
+    },
+    {
+      "english": "Every day, a delicious meal was waiting for him when he returned.",
+      "korean": "매일 그가 돌아오면 맛있는 식사가 그를 기다리고 있었습니다.",
+      "targetWordEnglish": "delicious",
+      "targetWordKorean": "맛있는"
+    },
+    {
+      "english": "He hid and saw a beautiful woman come out of the snail shell.",
+      "korean": "그는 숨어서 아름다운 여인이 우렁이 껍데기에서 나오는 것을 보았습니다.",
+      "targetWordEnglish": "shell",
+      "targetWordKorean": "껍데기"
+    },
+    {
+      "english": "They married but the king wanted to take her away.",
+      "korean": "그들은 결혼했지만 왕이 그녀를 데려가고 싶어 했습니다.",
+      "targetWordEnglish": "take",
+      "targetWordKorean": "데려가고"
+    },
+    {
+      "english": "They overcame the king's difficult challenges with magic.",
+      "korean": "그들은 마법으로 왕의 어려운 도전을 극복했습니다.",
+      "targetWordEnglish": "overcame",
+      "targetWordKorean": "극복했습니다"
+    },
+    {
+      "english": "The couple lived happily ever after together.",
+      "korean": "그 부부는 함께 오래오래 행복하게 살았습니다.",
+      "targetWordEnglish": "couple",
+      "targetWordKorean": "부부"
+    }
+  ]
+}

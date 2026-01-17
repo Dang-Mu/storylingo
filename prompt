@@ -1,0 +1,11 @@
+Generate a short story (5-7 sentences) about 한국 동화 10편. 
+      The story should be simple, suitable for an English learner (CEFR B1 level). 
+      For each sentence, identify ONE key vocabulary word to test.
+      
+      Return a JSON object with:
+      - title: Story title
+      - sentences: Array of objects, each containing:
+        - english: Full English sentence.
+        - korean: Full Korean translation.
+        - targetWordEnglish: The key word from the English sentence (exactly as written in the english sentence).
+        - targetWordKorean: The corresponding Korean translation of that specific key word (exactly as written in the korean sentence).

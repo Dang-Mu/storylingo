@@ -1,0 +1,47 @@
+{
+  "title": "Kongjwi and Patjwi",
+  "sentences": [
+    {
+      "english": "Kongjwi lived with her wicked stepmother and stepsister Patjwi.",
+      "korean": "콩쥐는 못된 계모와 의붓자매 팥쥐와 함께 살았습니다.",
+      "targetWordEnglish": "wicked",
+      "targetWordKorean": "못된"
+    },
+    {
+      "english": "They made her do hard work while Patjwi played all day.",
+      "korean": "팥쥐가 하루 종일 노는 동안 그들은 그녀에게 힘든 일을 시켰습니다.",
+      "targetWordEnglish": "played",
+      "targetWordKorean": "노는"
+    },
+    {
+      "english": "A cow and a toad helped Kongjwi with her impossible tasks.",
+      "korean": "소와 두꺼비가 콩쥐의 불가능한 일을 도와주었습니다.",
+      "targetWordEnglish": "impossible",
+      "targetWordKorean": "불가능한"
+    },
+    {
+      "english": "She went to the village festival but lost her shoe on the way.",
+      "korean": "그녀는 마을 축제에 갔지만 도중에 신발을 잃어버렸습니다.",
+      "targetWordEnglish": "lost",
+      "targetWordKorean": "잃어버렸습니다"
+    },
+    {
+      "english": "The magistrate found the shoe and looked for its owner.",
+      "korean": "원님은 신발을 발견하고 주인을 찾았습니다.",
+      "targetWordEnglish": "owner",
+      "targetWordKorean": "주인"
+    },
+    {
+      "english": "Kongjwi married the magistrate and Patjwi was punished for her jealousy.",
+      "korean": "콩쥐는 원님과 결혼했고 팥쥐는 질투심 때문에 벌을 받았습니다.",
+      "targetWordEnglish": "punished",
+      "targetWordKorean": "벌을 받았습니다"
+    },
+    {
+      "english": "Kongjwi forgave them and lived happily ever after.",
+      "korean": "콩쥐는 그들을 용서하고 오래오래 행복하게 살았습니다.",
+      "targetWordEnglish": "forgave",
+      "targetWordKorean": "용서하고"
+    }
+  ]
+}
