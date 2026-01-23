@@ -2,14 +2,16 @@ import React from 'react';
 import { Button } from '../Button';
 import { BookIcon } from '../icons/BookIcon';
 import { AVAILABLE_STORIES, StoryId } from '../../services/storyService';
-import { PartOfSpeech } from '../../types';
+import { PartOfSpeech, QuizType } from '../../types';
 
 interface HomeScreenProps {
   topic: string;
   partOfSpeech: PartOfSpeech;
+  quizType: QuizType;
   selectedStoryId: StoryId | null;
   onTopicChange: (topic: string) => void;
   onPartOfSpeechChange: (pos: PartOfSpeech) => void;
+  onQuizTypeChange: (type: QuizType) => void;
   onGenerate: () => void;
   onSelectStory: (storyId: StoryId) => void;
 }
@@ -17,9 +19,11 @@ interface HomeScreenProps {
 export const HomeScreen: React.FC<HomeScreenProps> = ({ 
   topic, 
   partOfSpeech,
+  quizType,
   selectedStoryId,
   onTopicChange, 
   onPartOfSpeechChange,
+  onQuizTypeChange,
   onGenerate, 
   onSelectStory 
 }) => {
@@ -31,6 +35,11 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     { value: 'adverb', label: '부사', emoji: '🌟' },
   ];
 
+  const quizTypeOptions: { value: QuizType; label: string; emoji: string; description: string }[] = [
+    { value: 'multipleChoice', label: '객관식', emoji: '🔘', description: '4지선다 문제' },
+    { value: 'wordOrder', label: '단어 배열', emoji: '🔤', description: '단어를 순서대로 배열' },
+  ];
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-6 bg-white">
       <div className="w-full max-w-md flex flex-col items-center">
@@ -39,6 +48,34 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         <p className="text-gray-500 mb-8 text-center">스토리로 영어를 배워보세요. 주제를 입력하거나 클래식을 선택하세요.</p>
 
         <div className="w-full space-y-4">
+          {/* Quiz Type Selection */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">문제 유형</label>
+            <div className="grid grid-cols-2 gap-2">
+              {quizTypeOptions.map(option => (
+                <button
+                  key={option.value}
+                  onClick={() => onQuizTypeChange(option.value)}
+                  className={`px-4 py-3 rounded-xl text-sm font-medium transition-colors border ${
+                    quizType === option.value
+                      ? 'bg-indigo-600 text-white border-indigo-600'
+                      : 'bg-gray-50 text-gray-700 border-gray-300 hover:bg-gray-100'
+                  }`}
+                >
+                  <div className="flex items-center justify-center space-x-2">
+                    <span className="text-lg">{option.emoji}</span>
+                    <div className="text-left">
+                      <div className="font-bold">{option.label}</div>
+                      <div className={`text-xs ${quizType === option.value ? 'text-indigo-100' : 'text-gray-500'}`}>
+                        {option.description}
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+
           {/* Part of Speech Selection */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">품사 선택</label>

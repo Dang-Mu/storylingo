@@ -1,4 +1,4 @@
-import { Sentence, QuizItem } from '../types';
+import { Sentence, QuizItem, WordOrderItem } from '../types';
 
 // 간단한 오답 생성 함수 (wrongAnswers가 없을 때 사용)
 const generateWrongAnswers = (correctAnswer: string, partOfSpeech?: string): string[] => {
@@ -151,5 +151,49 @@ export const prepareQuizItem = (sentence: Sentence): QuizItem => {
     parts: [prefix, actualWordInSentence, suffix],
     choices: shuffledChoices,
     correctIndex: correctIndex >= 0 ? correctIndex : 0
+  };
+};
+
+/**
+ * 문장을 단어 배열 문제로 변환
+ */
+export const prepareWordOrderItem = (sentence: Sentence): WordOrderItem => {
+  console.log('[quizUtils] prepareWordOrderItem called for sentence:', {
+    english: sentence.english.substring(0, 50) + '...',
+  });
+
+  // 문장을 단어로 분리 (구두점 제거 후 공백으로 분리)
+  const words = sentence.english
+    .replace(/[.,!?;:]/g, '') // 구두점 제거
+    .split(/\s+/) // 공백으로 분리
+    .filter(word => word.length > 0); // 빈 문자열 제거
+
+  // 단어 배열 섞기
+  const shuffledWords = shuffleArray([...words]);
+
+  // 섞인 단어들의 원본 인덱스 찾기
+  const shuffledCorrectOrder: number[] = [];
+  const usedIndices = new Set<number>();
+  
+  for (const shuffledWord of shuffledWords) {
+    for (let i = 0; i < words.length; i++) {
+      if (words[i] === shuffledWord && !usedIndices.has(i)) {
+        shuffledCorrectOrder.push(i);
+        usedIndices.add(i);
+        break;
+      }
+    }
+  }
+
+  console.log('[quizUtils] Word order item prepared:', {
+    originalWords: words,
+    shuffledWords: shuffledWords,
+    correctOrder: shuffledCorrectOrder
+  });
+
+  return {
+    sentence,
+    words: shuffledWords,
+    correctOrder: shuffledCorrectOrder
   };
 };

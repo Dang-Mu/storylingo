@@ -1,18 +1,21 @@
 import { useState, useCallback } from 'react';
 import { generateStory } from '../services/geminiService';
 import { getStoryById, StoryId } from '../services/storyService';
-import { prepareQuizItem } from '../utils/quizUtils';
-import { Story, QuizItem, AppState, UserStats, PartOfSpeech } from '../types';
+import { prepareQuizItem, prepareWordOrderItem } from '../utils/quizUtils';
+import { Story, QuizItem, WordOrderItem, AppState, UserStats, PartOfSpeech, QuizType } from '../types';
 
 export const useAppState = () => {
   const [appState, setAppState] = useState<AppState>(AppState.HOME);
   const [topic, setTopic] = useState<string>('The Little Prince');
   const [partOfSpeech, setPartOfSpeech] = useState<PartOfSpeech>('all');
+  const [quizType, setQuizType] = useState<QuizType>('multipleChoice');
   const [selectedStoryId, setSelectedStoryId] = useState<StoryId | null>(null);
   const [story, setStory] = useState<Story | null>(null);
   const [currentQuizItems, setCurrentQuizItems] = useState<QuizItem[]>([]);
+  const [currentWordOrderItems, setCurrentWordOrderItems] = useState<WordOrderItem[]>([]);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [selectedChoice, setSelectedChoice] = useState<number | null>(null);
+  const [selectedWords, setSelectedWords] = useState<number[]>([]); // 단어 배열 문제용
   const [feedback, setFeedback] = useState<'idle' | 'correct' | 'incorrect'>('idle');
   const [stats, setStats] = useState<UserStats>({ totalQuestions: 0, correctAnswers: 0, streak: 0 });
   const [errorMsg, setErrorMsg] = useState<string>('');
@@ -50,10 +53,18 @@ export const useAppState = () => {
         }
       }
       
-      const items = filteredSentences.map(prepareQuizItem);
-      setCurrentQuizItems(items);
+      if (quizType === 'wordOrder') {
+        const items = filteredSentences.map(prepareWordOrderItem);
+        setCurrentWordOrderItems(items);
+        setCurrentQuizItems([]);
+      } else {
+        const items = filteredSentences.map(prepareQuizItem);
+        setCurrentQuizItems(items);
+        setCurrentWordOrderItems([]);
+      }
       setCurrentIndex(0);
       setSelectedChoice(null);
+      setSelectedWords([]);
       setFeedback('idle');
       setAppState(AppState.QUIZ);
     } catch (err) {
@@ -66,7 +77,7 @@ export const useAppState = () => {
       setErrorMsg(errorMessage);
       setAppState(AppState.ERROR);
     }
-  }, [partOfSpeech]);
+  }, [partOfSpeech, quizType]);
 
   const handleGenerate = useCallback(async () => {
     // 선택된 스토리가 있으면 스토리 로드
@@ -106,10 +117,18 @@ export const useAppState = () => {
       
       setStory(generatedStory);
       
-      const items = generatedStory.sentences.map(prepareQuizItem);
-      setCurrentQuizItems(items);
+      if (quizType === 'wordOrder') {
+        const items = generatedStory.sentences.map(prepareWordOrderItem);
+        setCurrentWordOrderItems(items);
+        setCurrentQuizItems([]);
+      } else {
+        const items = generatedStory.sentences.map(prepareQuizItem);
+        setCurrentQuizItems(items);
+        setCurrentWordOrderItems([]);
+      }
       setCurrentIndex(0);
       setSelectedChoice(null);
+      setSelectedWords([]);
       setFeedback('idle');
       setAppState(AppState.QUIZ);
     } catch (err) {
@@ -122,50 +141,86 @@ export const useAppState = () => {
       setErrorMsg(errorMessage);
       setAppState(AppState.ERROR);
     }
-  }, [topic, partOfSpeech, selectedStoryId, handleLoadStory]);
+  }, [topic, partOfSpeech, quizType, selectedStoryId, handleLoadStory]);
 
   const checkAnswer = useCallback(() => {
-    if (!currentQuizItems[currentIndex] || selectedChoice === null) {
-      return;
-    }
+    if (quizType === 'wordOrder') {
+      if (!currentWordOrderItems[currentIndex] || selectedWords.length === 0) {
+        return;
+      }
 
-    const currentItem = currentQuizItems[currentIndex];
-    const isCorrect = selectedChoice === currentItem.correctIndex;
+      const currentItem = currentWordOrderItems[currentIndex];
+      const isCorrect = JSON.stringify(selectedWords) === JSON.stringify(currentItem.correctOrder);
 
-    if (isCorrect) {
-      setFeedback('correct');
-      setStats(prev => ({
-        totalQuestions: prev.totalQuestions + 1,
-        correctAnswers: prev.correctAnswers + 1,
-        streak: prev.streak + 1
-      }));
+      if (isCorrect) {
+        setFeedback('correct');
+        setStats(prev => ({
+          totalQuestions: prev.totalQuestions + 1,
+          correctAnswers: prev.correctAnswers + 1,
+          streak: prev.streak + 1
+        }));
+      } else {
+        setFeedback('incorrect');
+        setStats(prev => ({
+          ...prev,
+          totalQuestions: prev.totalQuestions + 1,
+          streak: 0
+        }));
+      }
     } else {
-      setFeedback('incorrect');
-      setStats(prev => ({
-        ...prev,
-        totalQuestions: prev.totalQuestions + 1,
-        streak: 0
-      }));
+      if (!currentQuizItems[currentIndex] || selectedChoice === null) {
+        return;
+      }
+
+      const currentItem = currentQuizItems[currentIndex];
+      const isCorrect = selectedChoice === currentItem.correctIndex;
+
+      if (isCorrect) {
+        setFeedback('correct');
+        setStats(prev => ({
+          totalQuestions: prev.totalQuestions + 1,
+          correctAnswers: prev.correctAnswers + 1,
+          streak: prev.streak + 1
+        }));
+      } else {
+        setFeedback('incorrect');
+        setStats(prev => ({
+          ...prev,
+          totalQuestions: prev.totalQuestions + 1,
+          streak: 0
+        }));
+      }
     }
-  }, [currentQuizItems, currentIndex, selectedChoice]);
+  }, [quizType, currentQuizItems, currentWordOrderItems, currentIndex, selectedChoice, selectedWords]);
 
   const nextQuestion = useCallback(() => {
     setSelectedChoice(null);
+    setSelectedWords([]);
     setFeedback('idle');
     
-    if (currentIndex < currentQuizItems.length - 1) {
+    const totalItems = quizType === 'wordOrder' ? currentWordOrderItems.length : currentQuizItems.length;
+    if (currentIndex < totalItems - 1) {
       setCurrentIndex(prev => prev + 1);
     } else {
       setAppState(AppState.RESULT);
     }
-  }, [currentIndex, currentQuizItems.length]);
+  }, [currentIndex, quizType, currentQuizItems.length, currentWordOrderItems.length]);
 
   const restartQuiz = useCallback(() => {
     setStats({ totalQuestions: 0, correctAnswers: 0, streak: 0 });
     setCurrentIndex(0);
     setSelectedChoice(null);
+    setSelectedWords([]);
     setFeedback('idle');
     setAppState(AppState.QUIZ);
+  }, []);
+
+  const handleWordSelect = useCallback((wordIndex: number) => {
+    setSelectedWords(prev => [...prev, wordIndex]);
+  }, []);
+
+  const handleWordRemove = useCallback((position: number) => {
+    setSelectedWords(prev => prev.filter((_, idx) => idx !== position));
   }, []);
 
   const resetToHome = useCallback(() => {
@@ -180,11 +235,14 @@ export const useAppState = () => {
     appState,
     topic,
     partOfSpeech,
+    quizType,
     selectedStoryId,
     story,
     currentQuizItems,
+    currentWordOrderItems,
     currentIndex,
     selectedChoice,
+    selectedWords,
     feedback,
     stats,
     errorMsg,
@@ -192,6 +250,7 @@ export const useAppState = () => {
     setAppState,
     setTopic,
     setPartOfSpeech,
+    setQuizType,
     setSelectedChoice,
     // Actions
     handleSelectStory,
@@ -201,5 +260,7 @@ export const useAppState = () => {
     nextQuestion,
     restartQuiz,
     resetToHome,
+    handleWordSelect,
+    handleWordRemove,
   };
 };
