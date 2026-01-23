@@ -1,8 +1,12 @@
+export type PartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'all';
+
 export interface Sentence {
   english: string;
   korean: string;
   targetWordEnglish: string;
   targetWordKorean: string;
+  partOfSpeech?: PartOfSpeech; // 품사 정보 (선택적)
+  wrongAnswers?: string[]; // 오답 선택지 (3개)
 }
 
 export interface Story {
@@ -15,6 +19,8 @@ export interface QuizItem {
   sentence: Sentence;
   hiddenWord: string;
   parts: string[]; // [prefix, hidden, suffix]
+  choices: string[]; // 4개의 선택지 (정답 포함)
+  correctIndex: number; // 정답의 인덱스 (0-3)
 }
 
 export enum AppState {

@@ -2,64 +2,364 @@
   "title": "Little Red Riding Hood",
   "sentences": [
     {
+      "english": "Once upon a time, there was a sweet little girl who lived in a small village.",
+      "korean": "옛날 옛적에, 작은 마을에 사는 귀여운 소녀가 있었습니다.",
+      "targetWordEnglish": "village",
+      "targetWordKorean": "마을",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "advice",
+        "axe",
+        "basket"
+      ]
+    },
+    {
+      "english": "Everyone loved her, especially her grandmother who gave her a red hood.",
+      "korean": "모두가 그녀를 사랑했고, 특히 그녀에게 빨간 두건을 준 할머니가 그랬습니다.",
+      "targetWordEnglish": "especially",
+      "targetWordKorean": "특히",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "also",
+        "always",
+        "as"
+      ]
+    },
+    {
+      "english": "She wore the red hood everywhere, so people called her Little Red Riding Hood.",
+      "korean": "그녀는 어디서나 빨간 두건을 썼기 때문에 사람들은 그녀를 빨간 모자라고 불렀습니다.",
+      "targetWordEnglish": "everywhere",
+      "targetWordKorean": "어디서나",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "also",
+        "always",
+        "as"
+      ]
+    },
+    {
       "english": "Little Red Riding Hood walked through the woods to bring food to her grandmother.",
       "korean": "빨간 모자는 할머니께 음식을 가져다드리기 위해 숲을 걸어갔습니다.",
       "targetWordEnglish": "bring",
-      "targetWordKorean": "가져다드리기"
+      "targetWordKorean": "가져다드리기",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "answered",
+        "arrive",
+        "arrived"
+      ]
+    },
+    {
+      "english": "Her basket was filled with bread, butter, and a cake her mother had baked.",
+      "korean": "그녀의 바구니에는 빵, 버터, 그리고 엄마가 구운 케이크가 가득 담겨 있었습니다.",
+      "targetWordEnglish": "basket",
+      "targetWordKorean": "바구니",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "advice",
+        "axe",
+        "bed"
+      ]
     },
     {
       "english": "Her mother warned her not to talk to strangers on the way.",
       "korean": "그녀의 어머니는 도중에 낯선 사람과 이야기하지 말라고 경고했습니다.",
       "targetWordEnglish": "warned",
-      "targetWordKorean": "경고했습니다"
+      "targetWordKorean": "경고했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "answered",
+        "arrive",
+        "arrived"
+      ]
+    },
+    {
+      "english": "She also told her to stay on the main path and not wander into the forest.",
+      "korean": "그녀는 또한 큰길에 머물고 숲 속으로 돌아다니지 말라고 말했습니다.",
+      "targetWordEnglish": "wander",
+      "targetWordKorean": "돌아다니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "answered",
+        "arrive",
+        "arrived"
+      ]
+    },
+    {
+      "english": "The girl promised to be careful and kissed her mother goodbye.",
+      "korean": "소녀는 조심하겠다고 약속하고 엄마에게 작별 키스를 했습니다.",
+      "targetWordEnglish": "promised",
+      "targetWordKorean": "약속했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "answered",
+        "arrive",
+        "arrived"
+      ]
     },
     {
       "english": "However, she met a wolf who asked her where she was going.",
       "korean": "하지만, 그녀는 어디로 가는지 묻는 늑대를 만났습니다.",
       "targetWordEnglish": "however",
-      "targetWordKorean": "하지만"
+      "targetWordKorean": "하지만",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "also",
+        "always",
+        "as"
+      ]
+    },
+    {
+      "english": "The wolf had a smooth voice and seemed friendly at first.",
+      "korean": "늑대는 부드러운 목소리를 가졌고 처음에는 친절해 보였습니다.",
+      "targetWordEnglish": "smooth",
+      "targetWordKorean": "부드러운",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "alive",
+        "beautiful",
+        "better"
+      ]
+    },
+    {
+      "english": "The innocent girl told the wolf about her sick grandmother.",
+      "korean": "순진한 소녀는 늑대에게 아픈 할머니에 대해 말했습니다.",
+      "targetWordEnglish": "innocent",
+      "targetWordKorean": "순진한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "alive",
+        "beautiful",
+        "better"
+      ]
+    },
+    {
+      "english": "The wolf suggested she pick some beautiful flowers for her grandmother.",
+      "korean": "늑대는 할머니를 위해 아름다운 꽃을 몇 송이 꺾으라고 제안했습니다.",
+      "targetWordEnglish": "suggested",
+      "targetWordKorean": "제안했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "answered",
+        "arrive",
+        "arrived"
+      ]
     },
     {
       "english": "The wolf took a shortcut and arrived at the grandmother's house first.",
       "korean": "늑대는 지름길로 가서 할머니 집에 먼저 도착했습니다.",
       "targetWordEnglish": "shortcut",
-      "targetWordKorean": "지름길"
+      "targetWordKorean": "지름길",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "advice",
+        "axe",
+        "basket"
+      ]
+    },
+    {
+      "english": "He knocked on the door and imitated the girl's voice to get inside.",
+      "korean": "그는 문을 두드리며 안으로 들어가기 위해 소녀의 목소리를 흉내 냈습니다.",
+      "targetWordEnglish": "imitated",
+      "targetWordKorean": "흉내 냈습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "answered",
+        "arrive",
+        "arrived"
+      ]
+    },
+    {
+      "english": "The grandmother was too weak to get up from her bed.",
+      "korean": "할머니는 너무 약해서 침대에서 일어날 수 없었습니다.",
+      "targetWordEnglish": "weak",
+      "targetWordKorean": "약해서",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "alive",
+        "beautiful",
+        "better"
+      ]
     },
     {
       "english": "He swallowed the grandmother whole and put on her clothes.",
       "korean": "그는 할머니를 통째로 삼키고 그녀의 옷을 입었습니다.",
       "targetWordEnglish": "swallowed",
-      "targetWordKorean": "삼키고"
+      "targetWordKorean": "삼키고",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "answered",
+        "arrive",
+        "arrived"
+      ]
+    },
+    {
+      "english": "The wolf climbed into bed and pulled the covers up to his chin.",
+      "korean": "늑대는 침대에 올라가 이불을 턱까지 끌어올렸습니다.",
+      "targetWordEnglish": "covers",
+      "targetWordKorean": "이불",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "advice",
+        "axe",
+        "basket"
+      ]
+    },
+    {
+      "english": "He waited patiently for the little girl to arrive.",
+      "korean": "그는 작은 소녀가 오기를 참을성 있게 기다렸습니다.",
+      "targetWordEnglish": "patiently",
+      "targetWordKorean": "참을성 있게",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "also",
+        "always",
+        "as"
+      ]
     },
     {
       "english": "When the girl arrived, she noticed her grandmother looked very strange.",
       "korean": "소녀가 도착했을 때, 그녀는 할머니가 매우 이상해 보인다는 것을 알아차렸습니다.",
       "targetWordEnglish": "strange",
-      "targetWordKorean": "이상해"
+      "targetWordKorean": "이상해",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "alive",
+        "beautiful",
+        "better"
+      ]
+    },
+    {
+      "english": "The room was darker than usual and something felt wrong.",
+      "korean": "방은 평소보다 어두웠고 뭔가 잘못된 느낌이었습니다.",
+      "targetWordEnglish": "darker",
+      "targetWordKorean": "더 어두운",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "alive",
+        "beautiful",
+        "better"
+      ]
     },
     {
       "english": "She asked about the big ears, big eyes, and big teeth.",
       "korean": "그녀는 큰 귀, 큰 눈, 그리고 큰 이빨에 대해 물었습니다.",
       "targetWordEnglish": "ears",
-      "targetWordKorean": "귀"
+      "targetWordKorean": "귀",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "advice",
+        "axe",
+        "basket"
+      ]
+    },
+    {
+      "english": "The wolf answered each question with a cunning reply.",
+      "korean": "늑대는 각 질문에 교활한 대답을 했습니다.",
+      "targetWordEnglish": "cunning",
+      "targetWordKorean": "교활한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "alive",
+        "beautiful",
+        "better"
+      ]
+    },
+    {
+      "english": "He said the big ears were to hear her better.",
+      "korean": "그는 큰 귀가 그녀의 말을 더 잘 듣기 위한 것이라고 말했습니다.",
+      "targetWordEnglish": "hear",
+      "targetWordKorean": "듣기",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "answered",
+        "arrive",
+        "arrived"
+      ]
     },
     {
       "english": "The wolf jumped out of bed and tried to eat Little Red Riding Hood.",
       "korean": "늑대는 침대에서 뛰쳐나와 빨간 모자를 잡아먹으려 했습니다.",
       "targetWordEnglish": "jumped",
-      "targetWordKorean": "뛰쳐나와"
+      "targetWordKorean": "뛰쳐나와",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "answered",
+        "arrive",
+        "arrived"
+      ]
+    },
+    {
+      "english": "The terrified girl screamed as loud as she could for help.",
+      "korean": "겁에 질린 소녀는 도움을 요청하며 최대한 크게 비명을 질렀습니다.",
+      "targetWordEnglish": "terrified",
+      "targetWordKorean": "겁에 질린",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "alive",
+        "beautiful",
+        "better"
+      ]
     },
     {
       "english": "A passing woodcutter heard her screams and ran into the house.",
       "korean": "지나가던 나무꾼이 그녀의 비명 소리를 듣고 집으로 뛰어들어왔습니다.",
       "targetWordEnglish": "screams",
-      "targetWordKorean": "비명"
+      "targetWordKorean": "비명",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "advice",
+        "axe",
+        "basket"
+      ]
+    },
+    {
+      "english": "The brave woodcutter fought the wolf with his sharp axe.",
+      "korean": "용감한 나무꾼은 날카로운 도끼로 늑대와 싸웠습니다.",
+      "targetWordEnglish": "brave",
+      "targetWordKorean": "용감한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "alive",
+        "beautiful",
+        "better"
+      ]
     },
     {
       "english": "He saved them and they filled the wolf's belly with heavy stones.",
       "korean": "그는 그들을 구했고 그들은 늑대의 배를 무거운 돌로 채웠습니다.",
       "targetWordEnglish": "stones",
-      "targetWordKorean": "돌"
+      "targetWordKorean": "돌",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "advice",
+        "axe",
+        "basket"
+      ]
+    },
+    {
+      "english": "The grandmother was rescued alive from inside the wolf.",
+      "korean": "할머니는 늑대 뱃속에서 살아서 구출되었습니다.",
+      "targetWordEnglish": "rescued",
+      "targetWordKorean": "구출되었습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "answered",
+        "arrive",
+        "arrived"
+      ]
+    },
+    {
+      "english": "Little Red Riding Hood learned to always listen to her mother's advice.",
+      "korean": "빨간 모자는 항상 엄마의 충고를 듣겠다고 배웠습니다.",
+      "targetWordEnglish": "advice",
+      "targetWordKorean": "충고",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "axe",
+        "basket",
+        "bed"
+      ]
     }
   ]
 }

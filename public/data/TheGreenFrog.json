@@ -2,40 +2,214 @@
   "title": "The Green Frog",
   "sentences": [
     {
+      "english": "Long ago, there lived a mother frog and her young son in a pond.",
+      "korean": "오래전, 연못에 어미 개구리와 어린 아들이 살았습니다.",
+      "targetWordEnglish": "pond",
+      "targetWordKorean": "연못",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "day",
+        "east",
+        "frog"
+      ]
+    },
+    {
       "english": "A young frog never listened to his mother and always disobeyed.",
       "korean": "어린 청개구리는 엄마의 말을 절대 듣지 않고 항상 불순종했습니다.",
       "targetWordEnglish": "disobeyed",
-      "targetWordKorean": "불순종했습니다"
+      "targetWordKorean": "불순종했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "asked",
+        "be",
+        "became"
+      ]
+    },
+    {
+      "english": "Whatever his mother asked, he did the exact opposite.",
+      "korean": "엄마가 무엇을 부탁하든, 그는 정확히 반대로 행동했습니다.",
+      "targetWordEnglish": "exact",
+      "targetWordKorean": "정확히",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "clever",
+        "deep",
+        "dry"
+      ]
     },
     {
       "english": "If she said go east, he went west.",
       "korean": "그녀가 동쪽으로 가라고 하면 그는 서쪽으로 갔습니다.",
       "targetWordEnglish": "west",
-      "targetWordKorean": "서쪽"
+      "targetWordKorean": "서쪽",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "ago",
+        "always",
+        "away"
+      ]
+    },
+    {
+      "english": "If she told him to stay quiet, he croaked loudly all day.",
+      "korean": "그녀가 조용히 있으라고 하면, 그는 하루 종일 크게 개골개골 울었습니다.",
+      "targetWordEnglish": "croaked",
+      "targetWordKorean": "개골개골 울다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "asked",
+        "be",
+        "became"
+      ]
+    },
+    {
+      "english": "His mother grew old and tired from worrying about her son.",
+      "korean": "그의 어머니는 아들 걱정에 늙고 지쳤습니다.",
+      "targetWordEnglish": "worried",
+      "targetWordKorean": "걱정하다"
+    },
+    {
+      "english": "She became very sick and knew she would die soon.",
+      "korean": "그녀는 매우 아파졌고 곧 죽을 것을 알았습니다.",
+      "targetWordEnglish": "sick",
+      "targetWordKorean": "아픈",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "clever",
+        "deep",
+        "dry"
+      ]
     },
     {
       "english": "Before dying, the mother asked to be buried by the river.",
       "korean": "죽기 전에 엄마는 강가에 묻어달라고 부탁했습니다.",
       "targetWordEnglish": "buried",
-      "targetWordKorean": "묻어달라고"
+      "targetWordKorean": "묻어달라고",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "asked",
+        "be",
+        "became"
+      ]
     },
     {
       "english": "She thought he would do the opposite and bury her on the hill.",
       "korean": "그녀는 그가 반대로 행동해서 언덕에 묻어줄 것이라고 생각했습니다.",
       "targetWordEnglish": "opposite",
-      "targetWordKorean": "반대로"
+      "targetWordKorean": "반대로",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "day",
+        "east",
+        "frog"
+      ]
+    },
+    {
+      "english": "She wanted to rest peacefully on the dry mountain forever.",
+      "korean": "그녀는 마른 산에서 영원히 평화롭게 쉬고 싶었습니다.",
+      "targetWordEnglish": "peacefully",
+      "targetWordKorean": "평화롭게",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "ago",
+        "always",
+        "away"
+      ]
+    },
+    {
+      "english": "When his mother died, the frog was filled with deep regret.",
+      "korean": "어머니가 돌아가시자, 개구리는 깊은 후회로 가득 찼습니다.",
+      "targetWordEnglish": "regret",
+      "targetWordKorean": "후회",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "day",
+        "east",
+        "frog"
+      ]
     },
     {
       "english": "The frog felt guilty and obeyed her literally this time.",
       "korean": "개구리는 죄책감을 느꼈고 이번에는 그녀의 말 그대로 따랐습니다.",
       "targetWordEnglish": "guilty",
-      "targetWordKorean": "죄책감을"
+      "targetWordKorean": "죄책감을",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "clever",
+        "deep",
+        "dry"
+      ]
+    },
+    {
+      "english": "He buried her by the river, exactly as she had requested.",
+      "korean": "그는 그녀가 부탁한 대로 정확히 강가에 묻어드렸습니다.",
+      "targetWordEnglish": "requested",
+      "targetWordKorean": "부탁했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "asked",
+        "be",
+        "became"
+      ]
+    },
+    {
+      "english": "The poor frog did not understand his mother's clever plan.",
+      "korean": "불쌍한 개구리는 어머니의 영리한 계획을 이해하지 못했습니다.",
+      "targetWordEnglish": "clever",
+      "targetWordKorean": "영리한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "deep",
+        "dry",
+        "exact"
+      ]
     },
     {
       "english": "Whenever it rains, green frogs cry worrying her grave will wash away.",
       "korean": "비가 올 때마다 청개구리들은 그녀의 무덤이 떠내려갈까 봐 걱정하며 웁니다.",
       "targetWordEnglish": "wash",
-      "targetWordKorean": "떠내려갈까"
+      "targetWordKorean": "떠내려갈까",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "asked",
+        "be",
+        "became"
+      ]
+    },
+    {
+      "english": "That is why green frogs cry loudly when it rains.",
+      "korean": "그것이 비가 올 때 청개구리들이 크게 우는 이유입니다.",
+      "targetWordEnglish": "loudly",
+      "targetWordKorean": "크게",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "ago",
+        "always",
+        "away"
+      ]
+    },
+    {
+      "english": "This story teaches us to listen to our parents before it is too late.",
+      "korean": "이 이야기는 너무 늦기 전에 부모님 말씀을 들어야 한다고 가르칩니다.",
+      "targetWordEnglish": "teaches",
+      "targetWordKorean": "가르칩니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "asked",
+        "be",
+        "became"
+      ]
+    },
+    {
+      "english": "The little frog learned his lesson, but sadly it was too late.",
+      "korean": "어린 개구리는 교훈을 얻었지만, 슬프게도 너무 늦었습니다.",
+      "targetWordEnglish": "lesson",
+      "targetWordKorean": "교훈",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "day",
+        "east",
+        "frog"
+      ]
     }
   ]
 }

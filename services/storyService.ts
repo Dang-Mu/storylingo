@@ -2,21 +2,21 @@ import { Story } from '../types';
 
 // Available story files
 export const AVAILABLE_STORIES = [
-  { id: 'Cinderella', name: 'Cinderella', filename: 'Cinderella.json' },
-  { id: 'HanselAndGretel', name: 'Hansel and Gretel', filename: 'HanselAndGretel.json' },
-  { id: 'LittleRedRidingHood', name: 'Little Red Riding Hood', filename: 'LittleRedRidingHood.json' },
-  { id: 'SnowWhite', name: 'Snow White', filename: 'SnowWhite.json' },
-  { id: 'TheThreeLittlePigs', name: 'The Three Little Pigs', filename: 'TheThreeLittlePigs.json' },
-  { id: 'HeungbuAndNolbu', name: 'Heungbu and Nolbu', filename: 'HeungbuAndNolbu.json' },
-  { id: 'KongjwiAndPatjwi', name: 'Kongjwi and Patjwi', filename: 'KongjwiAndPatjwi.json' },
-  { id: 'TheSunAndTheMoon', name: 'The Sun and the Moon', filename: 'TheSunAndTheMoon.json' },
-  { id: 'TheFairyAndTheWoodcutter', name: 'The Fairy and the Woodcutter', filename: 'TheFairyAndTheWoodcutter.json' },
-  { id: 'TheRabbitAndTheDragonKing', name: 'The Rabbit and the Dragon King', filename: 'TheRabbitAndTheDragonKing.json' },
-  { id: 'SimCheong', name: 'Sim Cheong', filename: 'SimCheong.json' },
-  { id: 'TheTigerAndTheDriedPersimmon', name: 'The Tiger and the Dried Persimmon', filename: 'TheTigerAndTheDriedPersimmon.json' },
-  { id: 'TheGoblinsMagicClub', name: 'The Goblin\'s Magic Club', filename: 'TheGoblinsMagicClub.json' },
-  { id: 'TheSnailBride', name: 'The Snail Bride', filename: 'TheSnailBride.json' },
-  { id: 'TheGreenFrog', name: 'The Green Frog', filename: 'TheGreenFrog.json' },
+  { id: 'Cinderella', name: '신데렐라', filename: 'Cinderella.json' },
+  { id: 'HanselAndGretel', name: '헨젤과 그레텔', filename: 'HanselAndGretel.json' },
+  { id: 'LittleRedRidingHood', name: '빨간 모자', filename: 'LittleRedRidingHood.json' },
+  { id: 'SnowWhite', name: '백설공주', filename: 'SnowWhite.json' },
+  { id: 'TheThreeLittlePigs', name: '아기 돼지 삼형제', filename: 'TheThreeLittlePigs.json' },
+  { id: 'HeungbuAndNolbu', name: '흥부와 놀부', filename: 'HeungbuAndNolbu.json' },
+  { id: 'KongjwiAndPatjwi', name: '콩쥐 팥쥐', filename: 'KongjwiAndPatjwi.json' },
+  { id: 'TheSunAndTheMoon', name: '해와 달', filename: 'TheSunAndTheMoon.json' },
+  { id: 'TheFairyAndTheWoodcutter', name: '선녀와 나무꾼', filename: 'TheFairyAndTheWoodcutter.json' },
+  { id: 'TheRabbitAndTheDragonKing', name: '토끼와 용왕', filename: 'TheRabbitAndTheDragonKing.json' },
+  { id: 'SimCheong', name: '심청', filename: 'SimCheong.json' },
+  { id: 'TheTigerAndTheDriedPersimmon', name: '호랑이와 곶감', filename: 'TheTigerAndTheDriedPersimmon.json' },
+  { id: 'TheGoblinsMagicClub', name: '도깨비 방망이', filename: 'TheGoblinsMagicClub.json' },
+  { id: 'TheSnailBride', name: '달봉이', filename: 'TheSnailBride.json' },
+  { id: 'TheGreenFrog', name: '청개구리', filename: 'TheGreenFrog.json' },
 ] as const;
 
 export type StoryId = typeof AVAILABLE_STORIES[number]['id'];
@@ -28,6 +28,8 @@ interface StoryFile {
     korean: string;
     targetWordEnglish: string;
     targetWordKorean: string;
+    partOfSpeech?: string;
+    wrongAnswers?: string[];
   }>;
 }
 
@@ -62,6 +64,8 @@ export const loadStoryFromFile = async (filename: string): Promise<Story> => {
         korean: s.korean,
         targetWordEnglish: s.targetWordEnglish,
         targetWordKorean: s.targetWordKorean,
+        partOfSpeech: s.partOfSpeech as any, // Optional field
+        wrongAnswers: s.wrongAnswers, // Optional field
       })),
     };
     

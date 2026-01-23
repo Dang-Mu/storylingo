@@ -12,17 +12,20 @@ const App: React.FC = () => {
   const {
     appState,
     topic,
+    partOfSpeech,
+    selectedStoryId,
     story,
     currentQuizItems,
     currentIndex,
-    userInput,
+    selectedChoice,
     feedback,
     stats,
     errorMsg,
     setAppState,
     setTopic,
-    setUserInput,
-    handleLoadStory,
+    setPartOfSpeech,
+    setSelectedChoice,
+    handleSelectStory,
     handleGenerate,
     checkAnswer,
     nextQuestion,
@@ -37,9 +40,12 @@ const App: React.FC = () => {
       {appState === AppState.HOME && (
         <HomeScreen
           topic={topic}
+          partOfSpeech={partOfSpeech}
+          selectedStoryId={selectedStoryId}
           onTopicChange={setTopic}
+          onPartOfSpeechChange={setPartOfSpeech}
           onGenerate={handleGenerate}
-          onLoadStory={handleLoadStory}
+          onSelectStory={handleSelectStory}
         />
       )}
       
@@ -57,10 +63,10 @@ const App: React.FC = () => {
           item={currentQuizItem}
           currentIndex={currentIndex}
           totalQuestions={currentQuizItems.length}
-          userInput={userInput}
+          selectedChoice={selectedChoice}
           feedback={feedback}
           stats={stats}
-          onInputChange={setUserInput}
+          onChoiceSelect={setSelectedChoice}
           onCheckAnswer={checkAnswer}
           onNextQuestion={nextQuestion}
           onClose={() => setAppState(AppState.HOME)}

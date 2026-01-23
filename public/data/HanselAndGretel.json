@@ -2,16 +2,88 @@
   "title": "Hansel and Gretel",
   "sentences": [
     {
+      "english": "Once upon a time, two children named Hansel and Gretel lived at the edge of a forest.",
+      "korean": "옛날 옛적에, 헨젤과 그레텔이라는 두 아이가 숲 가장자리에 살았습니다.",
+      "targetWordEnglish": "edge",
+      "targetWordKorean": "가장자리",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bone",
+        "brother",
+        "cage"
+      ]
+    },
+    {
       "english": "Hansel and Gretel lived near a large forest with their poor father.",
       "korean": "헨젤과 그레텔은 가난한 아버지와 함께 큰 숲 근처에 살았습니다.",
       "targetWordEnglish": "poor",
-      "targetWordKorean": "가난한"
+      "targetWordKorean": "가난한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "alive",
+        "clear"
+      ]
+    },
+    {
+      "english": "Their father was a woodcutter who struggled to feed his family.",
+      "korean": "그들의 아버지는 가족을 먹여 살리기 위해 고군분투하는 나무꾼이었습니다.",
+      "targetWordEnglish": "struggled",
+      "targetWordKorean": "고군분투하다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "abandon",
+        "be",
+        "blocking"
+      ]
+    },
+    {
+      "english": "Their cruel stepmother wanted to abandon the children in the forest.",
+      "korean": "잔인한 계모는 아이들을 숲에 버리고 싶어 했습니다.",
+      "targetWordEnglish": "abandon",
+      "targetWordKorean": "버리다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "be",
+        "blocking",
+        "checked"
+      ]
+    },
+    {
+      "english": "Hansel overheard the plan and collected white pebbles to mark the way.",
+      "korean": "헨젤은 그 계획을 우연히 듣고 길을 표시하기 위해 흰 조약돌을 모았습니다.",
+      "targetWordEnglish": "pebbles",
+      "targetWordKorean": "조약돌",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bone",
+        "brother",
+        "cage"
+      ]
     },
     {
       "english": "One day, they went deep into the woods and lost their way.",
       "korean": "어느 날, 그들은 숲 깊은 곳으로 들어갔다가 길을 잃었습니다.",
       "targetWordEnglish": "woods",
-      "targetWordKorean": "숲"
+      "targetWordKorean": "숲",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bone",
+        "brother",
+        "cage"
+      ]
+    },
+    {
+      "english": "The forest was dark and scary, with tall trees blocking the sunlight.",
+      "korean": "숲은 어둡고 무서웠으며, 높은 나무들이 햇빛을 가리고 있었습니다.",
+      "targetWordEnglish": "blocking",
+      "targetWordKorean": "가리다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "abandon",
+        "be",
+        "checked"
+      ]
     },
     {
       "english": "They walked for a long time until they saw a strange house.",
@@ -20,46 +92,268 @@
       "targetWordKorean": "때까지"
     },
     {
+      "english": "Gretel held her brother's hand tightly because she was afraid.",
+      "korean": "그레텔은 무서워서 오빠의 손을 꼭 잡았습니다.",
+      "targetWordEnglish": "tightly",
+      "targetWordKorean": "꼭",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "after",
+        "again",
+        "anyway"
+      ]
+    },
+    {
       "english": "The house was made of gingerbread, candy, and sweet cakes.",
       "korean": "그 집은 진저브레드, 사탕, 그리고 달콤한 케이크로 만들어져 있었습니다.",
       "targetWordEnglish": "sweet",
-      "targetWordKorean": "달콤한"
+      "targetWordKorean": "달콤한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "alive",
+        "clear"
+      ]
+    },
+    {
+      "english": "The roof was covered with colorful frosting and chocolate tiles.",
+      "korean": "지붕은 알록달록한 프로스팅과 초콜릿 타일로 덮여 있었습니다.",
+      "targetWordEnglish": "colorful",
+      "targetWordKorean": "알록달록한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "alive",
+        "clear"
+      ]
+    },
+    {
+      "english": "The windows were made of clear sugar that sparkled in the light.",
+      "korean": "창문은 빛에 반짝이는 투명한 설탕으로 만들어져 있었습니다.",
+      "targetWordEnglish": "sparkled",
+      "targetWordKorean": "반짝이다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "abandon",
+        "be",
+        "blocking"
+      ]
     },
     {
       "english": "A wicked witch lived inside and invited the hungry children in.",
       "korean": "사악한 마녀가 안에 살고 있었고 배고픈 아이들을 안으로 초대했습니다.",
       "targetWordEnglish": "hungry",
-      "targetWordKorean": "배고픈"
+      "targetWordKorean": "배고픈",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "alive",
+        "clear"
+      ]
+    },
+    {
+      "english": "The witch pretended to be kind and gave them delicious food.",
+      "korean": "마녀는 친절한 척하며 그들에게 맛있는 음식을 주었습니다.",
+      "targetWordEnglish": "pretended",
+      "targetWordKorean": "척하다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "abandon",
+        "be",
+        "blocking"
+      ]
+    },
+    {
+      "english": "But her kindness was just a trick to fatten them up.",
+      "korean": "하지만 그녀의 친절은 그들을 살찌우기 위한 속임수일 뿐이었습니다.",
+      "targetWordEnglish": "trick",
+      "targetWordKorean": "속임수",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bone",
+        "brother",
+        "cage"
+      ]
     },
     {
       "english": "She locked Hansel in a cage and planned to eat him.",
       "korean": "그녀는 헨젤을 우리에 가두고 그를 잡아먹을 계획을 세웠습니다.",
       "targetWordEnglish": "cage",
-      "targetWordKorean": "우리"
+      "targetWordKorean": "우리",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bone",
+        "brother",
+        "cakes"
+      ]
+    },
+    {
+      "english": "Every day, the witch checked if Hansel was getting fatter.",
+      "korean": "매일, 마녀는 헨젤이 더 살이 쪘는지 확인했습니다.",
+      "targetWordEnglish": "fatter",
+      "targetWordKorean": "더 살찐",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "alive",
+        "clear"
+      ]
+    },
+    {
+      "english": "Clever Hansel held out a thin bone instead of his finger.",
+      "korean": "영리한 헨젤은 손가락 대신 가는 뼈를 내밀었습니다.",
+      "targetWordEnglish": "instead",
+      "targetWordKorean": "대신",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "after",
+        "again",
+        "anyway"
+      ]
     },
     {
       "english": "The witch forced Gretel to do chores and cook food for her brother.",
       "korean": "마녀는 그레텔에게 집안일을 하고 오빠를 위해 요리를 하도록 강요했습니다.",
       "targetWordEnglish": "forced",
-      "targetWordKorean": "강요했습니다"
+      "targetWordKorean": "강요했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "abandon",
+        "be",
+        "blocking"
+      ]
+    },
+    {
+      "english": "Gretel worked hard but secretly planned to save her brother.",
+      "korean": "그레텔은 열심히 일했지만 비밀리에 오빠를 구할 계획을 세웠습니다.",
+      "targetWordEnglish": "secretly",
+      "targetWordKorean": "비밀리에",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "after",
+        "again",
+        "anyway"
+      ]
+    },
+    {
+      "english": "The witch grew impatient and decided to eat Hansel anyway.",
+      "korean": "마녀는 참을 수 없어졌고 어쨌든 헨젤을 잡아먹기로 결정했습니다.",
+      "targetWordEnglish": "impatient",
+      "targetWordKorean": "참을 수 없는",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "alive",
+        "clear"
+      ]
     },
     {
       "english": "When the witch checked the oven, Gretel pushed her inside.",
       "korean": "마녀가 오븐을 확인할 때, 그레텔은 그녀를 안으로 밀어 넣었습니다.",
       "targetWordEnglish": "checked",
-      "targetWordKorean": "확인할"
+      "targetWordKorean": "확인할",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "abandon",
+        "be",
+        "blocking"
+      ]
+    },
+    {
+      "english": "Gretel freed her brother from the cage with the witch's keys.",
+      "korean": "그레텔은 마녀의 열쇠로 오빠를 우리에서 풀어주었습니다.",
+      "targetWordEnglish": "freed",
+      "targetWordKorean": "풀어주다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "abandon",
+        "be",
+        "blocking"
+      ]
+    },
+    {
+      "english": "The children hugged each other, crying tears of joy.",
+      "korean": "아이들은 기쁨의 눈물을 흘리며 서로를 껴안았습니다.",
+      "targetWordEnglish": "tears",
+      "targetWordKorean": "눈물",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bone",
+        "brother",
+        "cage"
+      ]
     },
     {
       "english": "The children found a chest filled with gold and jewels.",
       "korean": "아이들은 금과 보석으로 가득 찬 상자를 발견했습니다.",
       "targetWordEnglish": "chest",
-      "targetWordKorean": "상자"
+      "targetWordKorean": "상자",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bone",
+        "brother",
+        "cage"
+      ]
+    },
+    {
+      "english": "They filled their pockets with precious gems and pearls.",
+      "korean": "그들은 주머니를 귀중한 보석과 진주로 채웠습니다.",
+      "targetWordEnglish": "precious",
+      "targetWordKorean": "귀중한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "alive",
+        "clear"
+      ]
+    },
+    {
+      "english": "A white duck helped them cross a wide river on their journey home.",
+      "korean": "흰 오리가 집으로 돌아가는 길에 넓은 강을 건너는 것을 도와주었습니다.",
+      "targetWordEnglish": "journey",
+      "targetWordKorean": "여행",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bone",
+        "brother",
+        "cage"
+      ]
     },
     {
       "english": "They escaped the forest and returned home to their father.",
       "korean": "그들은 숲을 탈출하여 아버지가 계신 집으로 돌아왔습니다.",
       "targetWordEnglish": "returned",
-      "targetWordKorean": "돌아왔습니다"
+      "targetWordKorean": "돌아왔습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "abandon",
+        "be",
+        "blocking"
+      ]
+    },
+    {
+      "english": "Their father was overjoyed to see his children alive and well.",
+      "korean": "그들의 아버지는 아이들이 살아서 건강한 것을 보고 매우 기뻐했습니다.",
+      "targetWordEnglish": "overjoyed",
+      "targetWordKorean": "매우 기뻐하는",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "alive",
+        "clear"
+      ]
+    },
+    {
+      "english": "The family lived happily ever after and never went hungry again.",
+      "korean": "가족은 오래오래 행복하게 살았고 다시는 굶주리지 않았습니다.",
+      "targetWordEnglish": "happily",
+      "targetWordKorean": "행복하게",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "after",
+        "again",
+        "anyway"
+      ]
     }
   ]
 }

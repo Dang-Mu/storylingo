@@ -5,109 +5,217 @@
       "english": "Long ago, a hungry tiger roamed near a village looking for food.",
       "korean": "오래전, 배고픈 호랑이가 음식을 찾아 마을 근처를 배회했습니다.",
       "targetWordEnglish": "roamed",
-      "targetWordKorean": "배회했습니다"
+      "targetWordKorean": "배회했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "came",
+        "caught",
+        "comes"
+      ]
     },
     {
       "english": "A tiger came to a village to eat a crying baby.",
       "korean": "호랑이가 우는 아기를 잡아먹으러 마을에 왔습니다.",
       "targetWordEnglish": "village",
-      "targetWordKorean": "마을"
+      "targetWordKorean": "마을",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "baby",
+        "back",
+        "cattle"
+      ]
     },
     {
       "english": "He hid outside a house and listened carefully to the sounds inside.",
       "korean": "그는 집 밖에 숨어 안에서 나는 소리를 주의 깊게 들었습니다.",
       "targetWordEnglish": "listened",
-      "targetWordKorean": "들었습니다"
+      "targetWordKorean": "들었습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "came",
+        "caught",
+        "comes"
+      ]
     },
     {
       "english": "The baby inside was crying loudly and would not stop.",
       "korean": "안에 있는 아기가 크게 울며 멈추지 않았습니다.",
       "targetWordEnglish": "loudly",
-      "targetWordKorean": "크게"
+      "targetWordKorean": "크게",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "again",
+        "ago",
+        "away"
+      ]
     },
     {
       "english": "The mother said \"Here comes a tiger!\" but the baby didn't stop.",
       "korean": "엄마가 \"호랑이가 온다!\"라고 말했지만 아기는 멈추지 않았습니다.",
       "targetWordEnglish": "stop",
-      "targetWordKorean": "멈추지"
+      "targetWordKorean": "멈추지",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "came",
+        "caught",
+        "comes"
+      ]
     },
     {
       "english": "The tiger felt proud that the baby was not scared of him.",
       "korean": "호랑이는 아기가 자신을 무서워하지 않는다는 것에 자존심이 상했습니다.",
       "targetWordEnglish": "proud",
-      "targetWordKorean": "자존심이 상한"
+      "targetWordKorean": "자존심이 상한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "dark",
+        "dear"
+      ]
     },
     {
       "english": "She said \"Here is a dried persimmon!\" and the baby stopped crying.",
       "korean": "그녀가 \"여기 곶감이 있다!\"라고 말하자 아기는 울음을 그쳤습니다.",
       "targetWordEnglish": "crying",
-      "targetWordKorean": "울음을"
+      "targetWordKorean": "울음을",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "came",
+        "caught",
+        "comes"
+      ]
     },
     {
       "english": "The tiger was very surprised that the baby stopped immediately.",
       "korean": "호랑이는 아기가 즉시 멈춘 것에 매우 놀랐습니다.",
       "targetWordEnglish": "immediately",
-      "targetWordKorean": "즉시"
+      "targetWordKorean": "즉시",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "again",
+        "ago",
+        "away"
+      ]
     },
     {
       "english": "The tiger thought the persimmon was a monster scarier than him.",
       "korean": "호랑이는 곶감이 자신보다 더 무서운 괴물이라고 생각했습니다.",
       "targetWordEnglish": "monster",
-      "targetWordKorean": "괴물"
+      "targetWordKorean": "괴물",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "baby",
+        "back",
+        "cattle"
+      ]
     },
     {
       "english": "He decided to leave quickly before the scary persimmon came.",
       "korean": "그는 무서운 곶감이 오기 전에 빨리 떠나기로 결정했습니다.",
       "targetWordEnglish": "decided",
-      "targetWordKorean": "결정했습니다"
+      "targetWordKorean": "결정했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "came",
+        "caught",
+        "comes"
+      ]
     },
     {
       "english": "Meanwhile, a cattle thief was sneaking around the same village.",
       "korean": "한편, 소 도둑이 같은 마을 주변을 몰래 돌아다니고 있었습니다.",
       "targetWordEnglish": "sneaking",
-      "targetWordKorean": "몰래"
+      "targetWordKorean": "몰래",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "came",
+        "caught",
+        "comes"
+      ]
     },
     {
       "english": "It was so dark that he could not see very well.",
       "korean": "너무 어두워서 그는 잘 볼 수가 없었습니다.",
       "targetWordEnglish": "dark",
-      "targetWordKorean": "어두운"
+      "targetWordKorean": "어두운",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "dear",
+        "dried"
+      ]
     },
     {
       "english": "A cattle thief jumped on the tiger's back, thinking it was a cow.",
       "korean": "소 도둑이 소인 줄 알고 호랑이 등 위로 뛰어올랐습니다.",
       "targetWordEnglish": "thief",
-      "targetWordKorean": "도둑"
+      "targetWordKorean": "도둑",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "baby",
+        "back",
+        "cattle"
+      ]
     },
     {
       "english": "The tiger was shocked and thought the dried persimmon had caught him.",
       "korean": "호랑이는 충격을 받았고 곶감이 자신을 잡았다고 생각했습니다.",
       "targetWordEnglish": "shocked",
-      "targetWordKorean": "충격을 받은"
+      "targetWordKorean": "충격을 받은",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "came",
+        "caught",
+        "comes"
+      ]
     },
     {
       "english": "The tiger ran away terrified of the \"dried persimmon\" on his back.",
       "korean": "호랑이는 등 뒤에 있는 \"곶감\"을 무서워하며 도망쳤습니다.",
       "targetWordEnglish": "terrified",
-      "targetWordKorean": "무서워하며"
+      "targetWordKorean": "무서워하며",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "afraid",
+        "dark",
+        "dear"
+      ]
     },
     {
       "english": "The thief realized he was on a tiger and held on for dear life.",
       "korean": "도둑은 자신이 호랑이 위에 있다는 것을 깨닫고 필사적으로 매달렸습니다.",
       "targetWordEnglish": "realized",
-      "targetWordKorean": "깨달았습니다"
+      "targetWordKorean": "깨달았습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "came",
+        "caught",
+        "comes"
+      ]
     },
     {
       "english": "When morning came, the thief jumped off and ran away.",
       "korean": "아침이 되자, 도둑은 뛰어내려 도망쳤습니다.",
       "targetWordEnglish": "morning",
-      "targetWordKorean": "아침"
+      "targetWordKorean": "아침",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "baby",
+        "back",
+        "cattle"
+      ]
     },
     {
       "english": "The tiger never came back to that village again, still afraid of dried persimmons.",
       "korean": "호랑이는 여전히 곶감을 무서워하며 그 마을에 다시는 오지 않았습니다.",
       "targetWordEnglish": "afraid",
-      "targetWordKorean": "무서워하는"
+      "targetWordKorean": "무서워하는",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "dark",
+        "dear",
+        "dried"
+      ]
     }
   ]
 }
