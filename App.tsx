@@ -5,6 +5,7 @@ import { HomeScreen } from './components/screens/HomeScreen';
 import { LoadingScreen } from './components/screens/LoadingScreen';
 import { ErrorScreen } from './components/screens/ErrorScreen';
 import { QuizScreen } from './components/screens/QuizScreen';
+import { WordOrderScreen } from './components/screens/WordOrderScreen';
 import { ReviewScreen } from './components/screens/ReviewScreen';
 import { ResultScreen } from './components/screens/ResultScreen';
 
@@ -12,34 +13,49 @@ const App: React.FC = () => {
   const {
     appState,
     topic,
+    partOfSpeech,
+    quizType,
+    selectedStoryId,
     story,
     currentQuizItems,
+    currentWordOrderItems,
     currentIndex,
-    userInput,
+    selectedChoice,
+    selectedWords,
     feedback,
     stats,
     errorMsg,
     setAppState,
     setTopic,
-    setUserInput,
-    handleLoadStory,
+    setPartOfSpeech,
+    setQuizType,
+    setSelectedChoice,
+    handleSelectStory,
     handleGenerate,
     checkAnswer,
     nextQuestion,
     restartQuiz,
     resetToHome,
+    handleWordSelect,
+    handleWordRemove,
   } = useAppState();
 
   const currentQuizItem = currentQuizItems[currentIndex];
+  const currentWordOrderItem = currentWordOrderItems[currentIndex];
   
   return (
     <div className="font-sans text-gray-900 antialiased selection:bg-indigo-100 selection:text-indigo-800">
       {appState === AppState.HOME && (
         <HomeScreen
           topic={topic}
+          partOfSpeech={partOfSpeech}
+          quizType={quizType}
+          selectedStoryId={selectedStoryId}
           onTopicChange={setTopic}
+          onPartOfSpeechChange={setPartOfSpeech}
+          onQuizTypeChange={setQuizType}
           onGenerate={handleGenerate}
-          onLoadStory={handleLoadStory}
+          onSelectStory={handleSelectStory}
         />
       )}
       
@@ -52,15 +68,31 @@ const App: React.FC = () => {
         />
       )}
       
-      {appState === AppState.QUIZ && currentQuizItem && (
+      {appState === AppState.QUIZ && quizType === 'multipleChoice' && currentQuizItem && (
         <QuizScreen
           item={currentQuizItem}
           currentIndex={currentIndex}
           totalQuestions={currentQuizItems.length}
-          userInput={userInput}
+          selectedChoice={selectedChoice}
           feedback={feedback}
           stats={stats}
-          onInputChange={setUserInput}
+          onChoiceSelect={setSelectedChoice}
+          onCheckAnswer={checkAnswer}
+          onNextQuestion={nextQuestion}
+          onClose={() => setAppState(AppState.HOME)}
+        />
+      )}
+
+      {appState === AppState.QUIZ && quizType === 'wordOrder' && currentWordOrderItem && (
+        <WordOrderScreen
+          item={currentWordOrderItem}
+          currentIndex={currentIndex}
+          totalQuestions={currentWordOrderItems.length}
+          selectedWords={selectedWords}
+          feedback={feedback}
+          stats={stats}
+          onWordSelect={handleWordSelect}
+          onWordRemove={handleWordRemove}
           onCheckAnswer={checkAnswer}
           onNextQuestion={nextQuestion}
           onClose={() => setAppState(AppState.HOME)}

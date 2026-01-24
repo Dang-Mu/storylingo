@@ -5,7 +5,13 @@
       "english": "Once upon a time, a kind merchant had a beautiful daughter named Cinderella.",
       "korean": "옛날 옛적에, 착한 상인에게 신데렐라라는 아름다운 딸이 있었습니다.",
       "targetWordEnglish": "merchant",
-      "targetWordKorean": "상인"
+      "targetWordKorean": "상인",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "Her mother passed away when she was very young.",
@@ -17,31 +23,61 @@
       "english": "Her father remarried a proud woman with two daughters.",
       "korean": "그녀의 아버지는 두 딸이 있는 거만한 여자와 재혼했습니다.",
       "targetWordEnglish": "remarried",
-      "targetWordKorean": "재혼했습니다"
+      "targetWordKorean": "재혼했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "Cinderella lived in a large house with her wicked stepmother and two stepsisters.",
       "korean": "신데렐라는 못된 계모와 두 의붓자매와 함께 큰 집에서 살았습니다.",
       "targetWordEnglish": "wicked",
-      "targetWordKorean": "못된"
+      "targetWordKorean": "못된",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "beautiful",
+        "beloved",
+        "blue"
+      ]
     },
     {
       "english": "They treated her poorly and made her do all the difficult housework.",
       "korean": "그들은 그녀를 형편없이 대했고 모든 힘든 집안일을 하게 했습니다.",
       "targetWordEnglish": "housework",
-      "targetWordKorean": "집안일"
+      "targetWordKorean": "집안일",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "She had to clean the floors, wash the dishes, and cook every meal.",
       "korean": "그녀는 바닥을 청소하고, 설거지를 하고, 모든 식사를 요리해야 했습니다.",
       "targetWordEnglish": "dishes",
-      "targetWordKorean": "설거지"
+      "targetWordKorean": "설거지",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "Her stepsisters wore beautiful dresses while she wore old rags.",
       "korean": "의붓자매들은 아름다운 드레스를 입었지만 그녀는 낡은 누더기를 입었습니다.",
       "targetWordEnglish": "rags",
-      "targetWordKorean": "누더기"
+      "targetWordKorean": "누더기",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "Despite her hardships, Cinderella remained gentle and kind.",
@@ -53,169 +89,337 @@
       "english": "One day, an invitation to a grand royal ball arrived at the house.",
       "korean": "어느 날, 성대한 왕실 무도회 초대장이 집에 도착했습니다.",
       "targetWordEnglish": "invitation",
-      "targetWordKorean": "초대장"
+      "targetWordKorean": "초대장",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "The prince was looking for a bride and invited all young women in the kingdom.",
       "korean": "왕자는 신부를 찾고 있었고 왕국의 모든 젊은 여성을 초대했습니다.",
       "targetWordEnglish": "bride",
-      "targetWordKorean": "신부"
+      "targetWordKorean": "신부",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "carriage"
+      ]
     },
     {
       "english": "The stepsisters were excited and ordered new gowns for the occasion.",
       "korean": "의붓자매들은 신이 났고 행사를 위해 새 드레스를 주문했습니다.",
       "targetWordEnglish": "gowns",
-      "targetWordKorean": "드레스"
+      "targetWordKorean": "드레스",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "Cinderella wanted to go, but her stepmother forbade her from attending.",
       "korean": "신데렐라는 가고 싶었지만, 계모는 그녀가 참석하는 것을 금지했습니다.",
       "targetWordEnglish": "forbade",
-      "targetWordKorean": "금지했습니다"
+      "targetWordKorean": "금지했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "She said Cinderella had nothing suitable to wear to the palace.",
       "korean": "그녀는 신데렐라가 궁전에 입고 갈 적절한 옷이 없다고 말했습니다.",
       "targetWordEnglish": "suitable",
-      "targetWordKorean": "적절한"
+      "targetWordKorean": "적절한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "beautiful",
+        "beloved",
+        "blue"
+      ]
     },
     {
       "english": "She was crying in the garden when her fairy godmother suddenly appeared.",
       "korean": "그녀가 정원에서 울고 있을 때 요정 대모가 갑자기 나타났습니다.",
       "targetWordEnglish": "appeared",
-      "targetWordKorean": "나타났습니다"
+      "targetWordKorean": "나타났습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "arrived",
+        "asked"
+      ]
     },
     {
       "english": "The kind fairy asked why she was so sad and listened to her story.",
       "korean": "친절한 요정은 왜 그렇게 슬픈지 물었고 그녀의 이야기를 들었습니다.",
       "targetWordEnglish": "listened",
-      "targetWordKorean": "들었습니다"
+      "targetWordKorean": "들었습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "The fairy waved her wand and turned a pumpkin into a magnificent carriage.",
       "korean": "요정은 지팡이를 휘둘러 호박을 웅장한 마차로 바꾸었습니다.",
       "targetWordEnglish": "magnificent",
-      "targetWordKorean": "웅장한"
+      "targetWordKorean": "웅장한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "beautiful",
+        "beloved",
+        "blue"
+      ]
     },
     {
       "english": "Four mice were transformed into beautiful white horses.",
       "korean": "네 마리의 쥐가 아름다운 백마로 변했습니다.",
       "targetWordEnglish": "transformed",
-      "targetWordKorean": "변했습니다"
+      "targetWordKorean": "변했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "A rat became an elegant coachman to drive the carriage.",
       "korean": "쥐 한 마리가 마차를 모는 우아한 마부가 되었습니다.",
       "targetWordEnglish": "elegant",
-      "targetWordKorean": "우아한"
+      "targetWordKorean": "우아한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "beautiful",
+        "beloved",
+        "blue"
+      ]
     },
     {
       "english": "She gave Cinderella a beautiful blue dress and a pair of glass slippers.",
       "korean": "그녀는 신데렐라에게 아름다운 파란색 드레스와 유리 구두 한 켤레를 주었습니다.",
       "targetWordEnglish": "slippers",
-      "targetWordKorean": "구두"
+      "targetWordKorean": "구두",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "The fairy warned her that the magic would end at midnight.",
       "korean": "요정은 마법이 자정에 끝날 것이라고 경고했습니다.",
       "targetWordEnglish": "magic",
-      "targetWordKorean": "마법"
+      "targetWordKorean": "마법",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "Cinderella arrived at the ball and everyone admired her beauty.",
       "korean": "신데렐라가 무도회에 도착하자 모두가 그녀의 아름다움에 감탄했습니다.",
       "targetWordEnglish": "admired",
-      "targetWordKorean": "감탄했습니다"
+      "targetWordKorean": "감탄했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "appeared",
+        "arrived",
+        "asked"
+      ]
     },
     {
       "english": "Cinderella danced with the prince, but she had to leave before midnight.",
       "korean": "신데렐라는 왕자와 춤을 추었지만, 자정이 되기 전에 떠나야 했습니다.",
       "targetWordEnglish": "midnight",
-      "targetWordKorean": "자정"
+      "targetWordKorean": "자정",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "The prince was enchanted by her grace and wanted to know her name.",
       "korean": "왕자는 그녀의 우아함에 매료되어 그녀의 이름을 알고 싶어했습니다.",
       "targetWordEnglish": "enchanted",
-      "targetWordKorean": "매료되어"
+      "targetWordKorean": "매료되어",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "The clock began to strike twelve and she ran from the palace.",
       "korean": "시계가 열두 시를 치기 시작했고 그녀는 궁전에서 달려 나갔습니다.",
       "targetWordEnglish": "strike",
-      "targetWordKorean": "치다"
+      "targetWordKorean": "치다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "In her haste, she lost one of her glass slippers on the stairs.",
       "korean": "서두르던 중에, 그녀는 계단에서 유리 구두 한 짝을 잃어버렸습니다.",
       "targetWordEnglish": "haste",
-      "targetWordKorean": "서두름"
+      "targetWordKorean": "서두름",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "The carriage turned back into a pumpkin as the spell wore off.",
       "korean": "마법이 풀리자 마차는 다시 호박으로 변했습니다.",
       "targetWordEnglish": "spell",
-      "targetWordKorean": "마법"
+      "targetWordKorean": "마법",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "The prince searched the entire kingdom to find the owner of the shoe.",
       "korean": "왕자는 그 구두의 주인을 찾기 위해 온 왕국을 뒤졌습니다.",
       "targetWordEnglish": "entire",
-      "targetWordKorean": "온"
+      "targetWordKorean": "온",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "beautiful",
+        "beloved",
+        "blue"
+      ]
     },
     {
       "english": "He visited every house and asked each maiden to try on the slipper.",
       "korean": "그는 모든 집을 방문하여 각 처녀에게 구두를 신어보라고 요청했습니다.",
       "targetWordEnglish": "maiden",
-      "targetWordKorean": "처녀"
+      "targetWordKorean": "처녀",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "The stepsisters tried to squeeze their feet into the tiny shoe.",
       "korean": "의붓자매들은 작은 구두에 발을 억지로 밀어 넣으려 했습니다.",
       "targetWordEnglish": "squeeze",
-      "targetWordKorean": "밀어 넣다"
+      "targetWordKorean": "밀어 넣다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "When the prince came to their house, the stepmother hid Cinderella.",
       "korean": "왕자가 그들의 집에 왔을 때, 계모는 신데렐라를 숨겼습니다.",
       "targetWordEnglish": "hid",
-      "targetWordKorean": "숨겼습니다"
+      "targetWordKorean": "숨겼습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "But the prince insisted on seeing all the young women in the house.",
       "korean": "하지만 왕자는 집안의 모든 젊은 여성을 보겠다고 고집했습니다.",
       "targetWordEnglish": "insisted",
-      "targetWordKorean": "고집했습니다"
+      "targetWordKorean": "고집했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "The slipper fit Cinderella perfectly, and the prince recognized her immediately.",
       "korean": "구두는 신데렐라에게 완벽하게 맞았고, 왕자는 즉시 그녀를 알아보았습니다.",
       "targetWordEnglish": "recognized",
-      "targetWordKorean": "알아보았습니다"
+      "targetWordKorean": "알아보았습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "Cinderella forgave her stepsisters for all their cruelty.",
       "korean": "신데렐라는 의붓자매들의 모든 잔인함을 용서했습니다.",
       "targetWordEnglish": "forgave",
-      "targetWordKorean": "용서했습니다"
+      "targetWordKorean": "용서했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "admired",
+        "appeared",
+        "arrived"
+      ]
     },
     {
       "english": "She showed kindness even to those who had been unkind to her.",
       "korean": "그녀는 자신에게 불친절했던 사람들에게도 친절을 보여주었습니다.",
       "targetWordEnglish": "kindness",
-      "targetWordKorean": "친절"
+      "targetWordKorean": "친절",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "ball",
+        "beauty",
+        "bride"
+      ]
     },
     {
       "english": "They married and lived happily ever after in the castle.",
       "korean": "그들은 결혼해서 성에서 오래오래 행복하게 살았습니다.",
       "targetWordEnglish": "happily",
-      "targetWordKorean": "행복하게"
+      "targetWordKorean": "행복하게",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "after",
+        "away",
+        "back"
+      ]
     },
     {
       "english": "Cinderella became a wise and beloved queen who helped the poor.",
       "korean": "신데렐라는 가난한 사람들을 돕는 지혜롭고 사랑받는 왕비가 되었습니다.",
       "targetWordEnglish": "beloved",
-      "targetWordKorean": "사랑받는"
+      "targetWordKorean": "사랑받는",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "beautiful",
+        "blue",
+        "difficult"
+      ]
     }
   ]
 }

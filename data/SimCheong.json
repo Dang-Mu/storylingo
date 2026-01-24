@@ -5,109 +5,217 @@
       "english": "Long ago, a kind girl named Sim Cheong lived with her blind father.",
       "korean": "오래전, 심청이라는 착한 소녀가 눈먼 아버지와 함께 살았습니다.",
       "targetWordEnglish": "blind",
-      "targetWordKorean": "눈먼"
+      "targetWordKorean": "눈먼",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "beautiful",
+        "deep",
+        "filial"
+      ]
     },
     {
       "english": "Her mother died when she was born, and her father raised her alone.",
       "korean": "그녀의 어머니는 그녀가 태어났을 때 돌아가셨고, 아버지가 혼자 키웠습니다.",
       "targetWordEnglish": "raised",
-      "targetWordKorean": "키웠습니다"
+      "targetWordKorean": "키웠습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "became",
+        "born",
+        "brought"
+      ]
     },
     {
       "english": "They were very poor but loved each other deeply.",
       "korean": "그들은 매우 가난했지만 서로를 깊이 사랑했습니다.",
       "targetWordEnglish": "deeply",
-      "targetWordKorean": "깊이"
+      "targetWordKorean": "깊이",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "again",
+        "ago",
+        "alone"
+      ]
     },
     {
       "english": "Sim Cheong's father was blind and needed rice offering to regain sight.",
       "korean": "심청의 아버지는 눈이 멀었고 시력을 되찾기 위해 공양미가 필요했습니다.",
       "targetWordEnglish": "offering",
-      "targetWordKorean": "공양"
+      "targetWordKorean": "공양",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bags",
+        "banquet",
+        "cheong"
+      ]
     },
     {
       "english": "A monk told him that donating 300 bags of rice would restore his sight.",
       "korean": "한 스님이 쌀 300석을 기부하면 시력을 되찾을 것이라고 말했습니다.",
       "targetWordEnglish": "restore",
-      "targetWordKorean": "되찾다"
+      "targetWordKorean": "되찾다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "became",
+        "born",
+        "brought"
+      ]
     },
     {
       "english": "The poor father made a promise he could not keep.",
       "korean": "가난한 아버지는 지킬 수 없는 약속을 했습니다.",
       "targetWordEnglish": "promise",
-      "targetWordKorean": "약속"
+      "targetWordKorean": "약속",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bags",
+        "banquet",
+        "cheong"
+      ]
     },
     {
       "english": "Sim Cheong heard about sailors who needed a young woman for a sacrifice.",
       "korean": "심청은 제물로 바칠 젊은 여자가 필요한 뱃사람들에 대해 들었습니다.",
       "targetWordEnglish": "sacrifice",
-      "targetWordKorean": "제물"
+      "targetWordKorean": "제물",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bags",
+        "banquet",
+        "cheong"
+      ]
     },
     {
       "english": "She sacrificed herself to the sea god in exchange for the rice.",
       "korean": "그녀는 쌀을 대가로 바다 신에게 자신을 희생했습니다.",
       "targetWordEnglish": "exchange",
-      "targetWordKorean": "대가"
+      "targetWordKorean": "대가",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bags",
+        "banquet",
+        "cheong"
+      ]
     },
     {
       "english": "She loved her father so much that she was willing to give her life.",
       "korean": "그녀는 아버지를 너무 사랑해서 목숨을 바칠 각오가 되어 있었습니다.",
       "targetWordEnglish": "willing",
-      "targetWordKorean": "기꺼이 하는"
+      "targetWordKorean": "기꺼이 하는",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "beautiful",
+        "blind",
+        "deep"
+      ]
     },
     {
       "english": "The sailors took Sim Cheong to the middle of the deep sea.",
       "korean": "뱃사람들은 심청을 깊은 바다 한가운데로 데려갔습니다.",
       "targetWordEnglish": "middle",
-      "targetWordKorean": "한가운데"
+      "targetWordKorean": "한가운데",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bags",
+        "banquet",
+        "cheong"
+      ]
     },
     {
       "english": "She jumped into the sea and woke up in an underwater palace.",
       "korean": "그녀는 바다로 뛰어들었고 수중 궁전에서 깨어났습니다.",
       "targetWordEnglish": "underwater",
-      "targetWordKorean": "수중"
+      "targetWordKorean": "수중",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "beautiful",
+        "blind",
+        "deep"
+      ]
     },
     {
       "english": "The Dragon King ruled the underwater kingdom with wisdom.",
       "korean": "용왕은 지혜로 수중 왕국을 다스렸습니다.",
       "targetWordEnglish": "wisdom",
-      "targetWordKorean": "지혜"
+      "targetWordKorean": "지혜",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bags",
+        "banquet",
+        "cheong"
+      ]
     },
     {
       "english": "The king was moved by her filial piety and sent her back in a lotus flower.",
       "korean": "왕은 그녀의 효심에 감동하여 그녀를 연꽃에 태워 돌려보냈습니다.",
       "targetWordEnglish": "piety",
-      "targetWordKorean": "효심"
+      "targetWordKorean": "효심",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bags",
+        "banquet",
+        "cheong"
+      ]
     },
     {
       "english": "The lotus flower floated on the water and was found by fishermen.",
       "korean": "연꽃은 물 위에 떠 있었고 어부들에게 발견되었습니다.",
       "targetWordEnglish": "floated",
-      "targetWordKorean": "떠 있었습니다"
+      "targetWordKorean": "떠 있었습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "became",
+        "born",
+        "brought"
+      ]
     },
     {
       "english": "The beautiful flower was brought to the king of the land.",
       "korean": "아름다운 꽃은 그 땅의 왕에게 가져가졌습니다.",
       "targetWordEnglish": "brought",
-      "targetWordKorean": "가져가졌습니다"
+      "targetWordKorean": "가져가졌습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "became",
+        "born",
+        "came"
+      ]
     },
     {
       "english": "She became the queen and held a banquet for blind men.",
       "korean": "그녀는 왕비가 되었고 맹인들을 위한 연회를 열었습니다.",
       "targetWordEnglish": "banquet",
-      "targetWordKorean": "연회"
+      "targetWordKorean": "연회",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "bags",
+        "cheong",
+        "daughter"
+      ]
     },
     {
       "english": "She hoped her father would come to the feast to find her.",
       "korean": "그녀는 아버지가 그녀를 찾기 위해 잔치에 올 것을 바랐습니다.",
       "targetWordEnglish": "hoped",
-      "targetWordKorean": "바랐습니다"
+      "targetWordKorean": "바랐습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "became",
+        "born",
+        "brought"
+      ]
     },
     {
       "english": "Her father came, opened his eyes, and saw his daughter again.",
       "korean": "그녀의 아버지가 와서 눈을 뜨고 딸을 다시 보았습니다.",
       "targetWordEnglish": "again",
-      "targetWordKorean": "다시"
+      "targetWordKorean": "다시",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "ago",
+        "alone",
+        "back"
+      ]
     }
   ]
 }

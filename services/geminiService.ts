@@ -1,5 +1,5 @@
 import { GoogleGenAI, Type } from "@google/genai";
-import { Story } from '../types';
+import { Story, PartOfSpeech } from '../types';
 
 // Initialize Gemini Client
 // Note: process.env.API_KEY is assumed to be available as per instructions.
@@ -16,10 +16,23 @@ if (!process.env.API_KEY) {
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
 
-export const generateStory = async (topic: string): Promise<Story> => {
-  console.log('[geminiService] generateStory called with topic:', topic);
+export const generateStory = async (topic: string, partOfSpeech: PartOfSpeech = 'all'): Promise<Story> => {
+  console.log('[geminiService] generateStory called with topic:', topic, 'partOfSpeech:', partOfSpeech);
   const modelName = 'gemini-3-flash-preview';
   console.log('[geminiService] Using model:', modelName);
+
+  // 품사별 설명
+  const partOfSpeechDescription: Record<PartOfSpeech, string> = {
+    'noun': 'nouns (명사)',
+    'verb': 'verbs (동사)',
+    'adjective': 'adjectives (형용사)',
+    'adverb': 'adverbs (부사)',
+    'all': 'various parts of speech (다양한 품사)'
+  };
+
+  const posInstruction = partOfSpeech === 'all' 
+    ? 'For each sentence, identify ONE key vocabulary word to test (any part of speech).'
+    : `For each sentence, identify ONE key vocabulary word to test. The target word MUST be a ${partOfSpeechDescription[partOfSpeech]}. Focus on ${partOfSpeechDescription[partOfSpeech]} as the main vocabulary words.`;
 
   try {
     console.log('[geminiService] Sending request to Gemini API...');
@@ -27,7 +40,7 @@ export const generateStory = async (topic: string): Promise<Story> => {
       model: modelName,
       contents: `Generate a short story (5-7 sentences) about "${topic}". 
       The story should be simple, suitable for an English learner (CEFR B1 level). 
-      For each sentence, identify ONE key vocabulary word to test.
+      ${posInstruction}
       
       Return a JSON object with:
       - title: Story title
@@ -36,6 +49,8 @@ export const generateStory = async (topic: string): Promise<Story> => {
         - korean: Full Korean translation.
         - targetWordEnglish: The key word from the English sentence (exactly as written in the english sentence).
         - targetWordKorean: The corresponding Korean translation of that specific key word (exactly as written in the korean sentence).
+        - partOfSpeech: The part of speech of the target word. Must be one of: "noun", "verb", "adjective", or "adverb".
+        - wrongAnswers: Array of exactly 3 wrong answer words. These should be the same part of speech as the target word, but incorrect in the context. They should be plausible but wrong choices for a multiple-choice question.
       `,
       config: {
         responseMimeType: "application/json",
@@ -53,6 +68,12 @@ export const generateStory = async (topic: string): Promise<Story> => {
                   korean: { type: Type.STRING },
                   targetWordEnglish: { type: Type.STRING, description: "The word to hide in the english sentence" },
                   targetWordKorean: { type: Type.STRING, description: "The corresponding word to underline in the korean sentence" },
+                  partOfSpeech: { type: Type.STRING, description: "The part of speech of the target word: noun, verb, adjective, or adverb" },
+                  wrongAnswers: { 
+                    type: Type.ARRAY, 
+                    items: { type: Type.STRING },
+                    description: "Array of exactly 3 wrong answer words (same part of speech, plausible but incorrect)" 
+                  },
                 }
               }
             }

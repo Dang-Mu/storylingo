@@ -2,40 +2,220 @@
   "title": "The Goblin's Magic Club",
   "sentences": [
     {
+      "english": "Long ago, a poor but honest woodcutter lived in a small village.",
+      "korean": "오래전, 가난하지만 정직한 나무꾼이 작은 마을에 살았습니다.",
+      "targetWordEnglish": "honest",
+      "targetWordKorean": "정직한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "amazed",
+        "angry",
+        "disrespectful"
+      ]
+    },
+    {
+      "english": "He worked hard every day cutting wood in the forest.",
+      "korean": "그는 매일 숲에서 나무를 베며 열심히 일했습니다.",
+      "targetWordEnglish": "cutting",
+      "targetWordKorean": "베다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "apologized",
+        "appear",
+        "asked"
+      ]
+    },
+    {
       "english": "A kind woodcutter dropped a nut and startled some goblins.",
       "korean": "착한 나무꾼이 개암을 떨어뜨려 도깨비들을 놀라게 했습니다.",
       "targetWordEnglish": "startled",
-      "targetWordKorean": "놀라게 했습니다"
+      "targetWordKorean": "놀라게 했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "apologized",
+        "appear",
+        "asked"
+      ]
+    },
+    {
+      "english": "The goblins were having a party when the nut fell on them.",
+      "korean": "도깨비들이 파티를 하고 있을 때 개암이 그들에게 떨어졌습니다.",
+      "targetWordEnglish": "party",
+      "targetWordKorean": "파티",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "behavior",
+        "club",
+        "day"
+      ]
     },
     {
       "english": "They ran away in fear and left a magic club behind.",
       "korean": "그들은 두려움에 도망치며 마법 방망이를 뒤에 남겨두었습니다.",
       "targetWordEnglish": "fear",
-      "targetWordKorean": "두려움"
+      "targetWordKorean": "두려움",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "behavior",
+        "club",
+        "day"
+      ]
+    },
+    {
+      "english": "The woodcutter picked up the strange club and examined it carefully.",
+      "korean": "나무꾼은 이상한 방망이를 집어 들고 주의 깊게 살펴보았습니다.",
+      "targetWordEnglish": "examined",
+      "targetWordKorean": "살펴보다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "apologized",
+        "appear",
+        "asked"
+      ]
     },
     {
       "english": "The club made gold appear when he tapped it on the ground.",
       "korean": "방망이는 땅에 두드리자 금이 나오게 했습니다.",
       "targetWordEnglish": "tapped",
-      "targetWordKorean": "두드리자"
+      "targetWordKorean": "두드리자",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "apologized",
+        "appear",
+        "asked"
+      ]
+    },
+    {
+      "english": "The woodcutter was amazed and thanked the heavens for his fortune.",
+      "korean": "나무꾼은 놀랐고 자신의 행운에 하늘에 감사했습니다.",
+      "targetWordEnglish": "amazed",
+      "targetWordKorean": "놀란",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "angry",
+        "disrespectful",
+        "greedy"
+      ]
+    },
+    {
+      "english": "He used the gold to help poor people in the village.",
+      "korean": "그는 마을의 가난한 사람들을 돕기 위해 금을 사용했습니다.",
+      "targetWordEnglish": "help",
+      "targetWordKorean": "돕다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "apologized",
+        "appear",
+        "asked"
+      ]
     },
     {
       "english": "He became rich and his greedy neighbor tried to do the same.",
       "korean": "그는 부자가 되었고 욕심 많은 이웃이 똑같이 하려고 했습니다.",
       "targetWordEnglish": "neighbor",
-      "targetWordKorean": "이웃"
+      "targetWordKorean": "이웃",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "behavior",
+        "club",
+        "day"
+      ]
+    },
+    {
+      "english": "The greedy neighbor asked how the woodcutter became so wealthy.",
+      "korean": "욕심 많은 이웃은 나무꾼이 어떻게 그렇게 부자가 되었는지 물었습니다.",
+      "targetWordEnglish": "wealthy",
+      "targetWordKorean": "부자인",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "amazed",
+        "angry",
+        "disrespectful"
+      ]
+    },
+    {
+      "english": "The kind woodcutter honestly told him about the goblins and the club.",
+      "korean": "친절한 나무꾼은 그에게 도깨비들과 방망이에 대해 솔직하게 말했습니다.",
+      "targetWordEnglish": "honestly",
+      "targetWordKorean": "솔직하게",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "ago",
+        "away",
+        "behind"
+      ]
+    },
+    {
+      "english": "The neighbor went to the same place hoping to find goblins too.",
+      "korean": "이웃은 도깨비를 찾기를 바라며 같은 장소에 갔습니다.",
+      "targetWordEnglish": "hoping",
+      "targetWordKorean": "바라며",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "apologized",
+        "appear",
+        "asked"
+      ]
+    },
+    {
+      "english": "He brought many nuts and threw them at the goblins rudely.",
+      "korean": "그는 많은 개암을 가져와서 무례하게 도깨비들에게 던졌습니다.",
+      "targetWordEnglish": "rudely",
+      "targetWordKorean": "무례하게",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "ago",
+        "away",
+        "behind"
+      ]
     },
     {
       "english": "The neighbor met the goblins but they beat him up instead.",
       "korean": "이웃은 도깨비들을 만났지만 대신 두들겨 맞았습니다.",
       "targetWordEnglish": "instead",
-      "targetWordKorean": "대신"
+      "targetWordKorean": "대신",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "ago",
+        "away",
+        "behind"
+      ]
+    },
+    {
+      "english": "The goblins were angry at his disrespectful behavior.",
+      "korean": "도깨비들은 그의 무례한 행동에 화가 났습니다.",
+      "targetWordEnglish": "disrespectful",
+      "targetWordKorean": "무례한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "amazed",
+        "angry",
+        "greedy"
+      ]
     },
     {
       "english": "The greedy man learned his lesson and apologized.",
       "korean": "욕심쟁이는 교훈을 얻고 사과했습니다.",
       "targetWordEnglish": "lesson",
-      "targetWordKorean": "교훈"
+      "targetWordKorean": "교훈",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "behavior",
+        "club",
+        "day"
+      ]
+    },
+    {
+      "english": "He realized that kindness and honesty bring true rewards.",
+      "korean": "그는 친절과 정직이 진정한 보상을 가져온다는 것을 깨달았습니다.",
+      "targetWordEnglish": "rewards",
+      "targetWordKorean": "보상",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "behavior",
+        "club",
+        "day"
+      ]
     }
   ]
 }

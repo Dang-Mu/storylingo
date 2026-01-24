@@ -5,91 +5,181 @@
       "english": "Deep beneath the sea, the Dragon King ruled over an underwater kingdom.",
       "korean": "바다 깊은 곳에서, 용왕이 수중 왕국을 다스렸습니다.",
       "targetWordEnglish": "ruled",
-      "targetWordKorean": "다스렸습니다"
+      "targetWordKorean": "다스렸습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "agreed",
+        "arrived",
+        "being"
+      ]
     },
     {
       "english": "The Dragon King was sick and needed a rabbit's liver for medicine.",
       "korean": "용왕은 병이 났고 약으로 토끼의 간이 필요했습니다.",
       "targetWordEnglish": "medicine",
-      "targetWordKorean": "약"
+      "targetWordKorean": "약",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "beauty",
+        "danger",
+        "doctor"
+      ]
     },
     {
       "english": "The royal doctor said only a rabbit's liver could cure his illness.",
       "korean": "어의는 오직 토끼의 간만이 그의 병을 치료할 수 있다고 말했습니다.",
       "targetWordEnglish": "cure",
-      "targetWordKorean": "치료하다"
+      "targetWordKorean": "치료하다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "agreed",
+        "arrived",
+        "being"
+      ]
     },
     {
       "english": "A turtle went to land to trick a rabbit into coming underwater.",
       "korean": "자라가 육지로 가서 토끼를 속여 물속으로 데려왔습니다.",
       "targetWordEnglish": "trick",
-      "targetWordKorean": "속여"
+      "targetWordKorean": "속여",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "agreed",
+        "arrived",
+        "being"
+      ]
     },
     {
       "english": "The turtle praised the beauty of the underwater palace to tempt the rabbit.",
       "korean": "자라는 토끼를 유혹하기 위해 수중 궁전의 아름다움을 칭찬했습니다.",
       "targetWordEnglish": "praised",
-      "targetWordKorean": "칭찬했습니다"
+      "targetWordKorean": "칭찬했습니다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "agreed",
+        "arrived",
+        "being"
+      ]
     },
     {
       "english": "The curious rabbit agreed to visit the Dragon King's palace.",
       "korean": "호기심 많은 토끼는 용왕의 궁전을 방문하기로 동의했습니다.",
       "targetWordEnglish": "curious",
-      "targetWordKorean": "호기심 많은"
+      "targetWordKorean": "호기심 많은",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "clever",
+        "empty",
+        "foolish"
+      ]
     },
     {
       "english": "The rabbit rode on the turtle's back across the wide ocean.",
       "korean": "토끼는 넓은 바다를 건너 자라의 등에 탔습니다.",
       "targetWordEnglish": "ocean",
-      "targetWordKorean": "바다"
+      "targetWordKorean": "바다",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "beauty",
+        "danger",
+        "doctor"
+      ]
     },
     {
       "english": "When they arrived, the rabbit learned the terrible truth.",
       "korean": "그들이 도착했을 때, 토끼는 끔찍한 진실을 알게 되었습니다.",
       "targetWordEnglish": "terrible",
-      "targetWordKorean": "끔찍한"
+      "targetWordKorean": "끔찍한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "clever",
+        "curious",
+        "empty"
+      ]
     },
     {
       "english": "The rabbit realized the danger and came up with a clever plan.",
       "korean": "토끼는 위험을 깨닫고 기발한 계획을 생각해 냈습니다.",
       "targetWordEnglish": "clever",
-      "targetWordKorean": "기발한"
+      "targetWordKorean": "기발한",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "curious",
+        "empty",
+        "foolish"
+      ]
     },
     {
       "english": "He had to think fast to save his own life.",
       "korean": "그는 자신의 목숨을 구하기 위해 빠르게 생각해야 했습니다.",
       "targetWordEnglish": "fast",
-      "targetWordKorean": "빠르게"
+      "targetWordKorean": "빠르게",
+      "partOfSpeech": "adverb",
+      "wrongAnswers": [
+        "as",
+        "away",
+        "back"
+      ]
     },
     {
       "english": "He lied that he left his liver back on land to keep it safe.",
       "korean": "그는 간을 안전하게 보관하기 위해 육지에 두고 왔다고 거짓말을 했습니다.",
       "targetWordEnglish": "safe",
-      "targetWordKorean": "안전하게"
+      "targetWordKorean": "안전하게",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "clever",
+        "curious",
+        "empty"
+      ]
     },
     {
       "english": "The rabbit said his liver was hanging on a tree to dry in the sun.",
       "korean": "토끼는 자신의 간이 햇볕에 말리려고 나무에 걸려 있다고 말했습니다.",
       "targetWordEnglish": "hanging",
-      "targetWordKorean": "걸려 있다"
+      "targetWordKorean": "걸려 있다",
+      "partOfSpeech": "verb",
+      "wrongAnswers": [
+        "agreed",
+        "arrived",
+        "being"
+      ]
     },
     {
       "english": "The foolish Dragon King believed the rabbit's ridiculous story.",
       "korean": "어리석은 용왕은 토끼의 터무니없는 이야기를 믿었습니다.",
       "targetWordEnglish": "foolish",
-      "targetWordKorean": "어리석은"
+      "targetWordKorean": "어리석은",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "clever",
+        "curious",
+        "empty"
+      ]
     },
     {
       "english": "The King let him go back to the forest to get it.",
       "korean": "왕은 간을 가져오라고 그를 숲으로 돌려보냈습니다.",
       "targetWordEnglish": "forest",
-      "targetWordKorean": "숲"
+      "targetWordKorean": "숲",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "beauty",
+        "danger",
+        "doctor"
+      ]
     },
     {
       "english": "As soon as the rabbit reached the shore, he jumped off the turtle.",
       "korean": "토끼가 해안에 도착하자마자, 그는 자라에서 뛰어내렸습니다.",
       "targetWordEnglish": "shore",
-      "targetWordKorean": "해안"
+      "targetWordKorean": "해안",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "beauty",
+        "danger",
+        "doctor"
+      ]
     },
     {
       "english": "The rabbit ran away and the turtle returned empty-handed.",
@@ -101,13 +191,25 @@
       "english": "The rabbit laughed at the turtle for being so gullible.",
       "korean": "토끼는 자라가 너무 잘 속는다고 비웃었습니다.",
       "targetWordEnglish": "gullible",
-      "targetWordKorean": "잘 속는"
+      "targetWordKorean": "잘 속는",
+      "partOfSpeech": "adjective",
+      "wrongAnswers": [
+        "clever",
+        "curious",
+        "empty"
+      ]
     },
     {
       "english": "This story teaches us that wit can overcome strength.",
       "korean": "이 이야기는 재치가 힘을 이길 수 있다고 가르칩니다.",
       "targetWordEnglish": "wit",
-      "targetWordKorean": "재치"
+      "targetWordKorean": "재치",
+      "partOfSpeech": "noun",
+      "wrongAnswers": [
+        "beauty",
+        "danger",
+        "doctor"
+      ]
     }
   ]
 }
