@@ -85,7 +85,8 @@ export const WordOrderScreen: React.FC<WordOrderScreenProps> = ({
             ) : (
               selectedWords.map((wordIndex, position) => {
                 const word = item.words[wordIndex];
-                const isCorrectPosition = isAnswered && item.correctOrder[position] === wordIndex;
+                const isCorrectPosition =
+                  isAnswered && (isCorrect || item.correctOrder[position] === wordIndex);
                 const isWrongPosition = isAnswered && !isCorrectPosition;
 
                 return (
