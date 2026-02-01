@@ -150,7 +150,25 @@ export const useAppState = () => {
       }
 
       const currentItem = currentWordOrderItems[currentIndex];
-      const isCorrect = JSON.stringify(selectedWords) === JSON.stringify(currentItem.correctOrder);
+      const isArticle = (w: string) => ['a', 'an', 'the'].includes(w.toLowerCase());
+      const correctWords = currentItem.correctOrder.map((i) => currentItem.words[i]);
+      const userWords = selectedWords.map((i) => currentItem.words[i]);
+
+      // 관사(the, a, an)만 순서 유연. 나머지(had·had 같은 동일 단어 포함)는 위치별로 정확히 일치해야 함.
+      const isCorrect = (() => {
+        if (correctWords.length !== userWords.length) return false;
+        for (let i = 0; i < correctWords.length; i++) {
+          if (!isArticle(correctWords[i])) {
+            if (userWords[i] !== correctWords[i]) return false;
+          } else {
+            if (!isArticle(userWords[i])) return false;
+          }
+        }
+        const correctArticles = correctWords.filter(isArticle).map((w) => w.toLowerCase()).sort();
+        const userArticles = userWords.filter(isArticle).map((w) => w.toLowerCase()).sort();
+        if (correctArticles.length !== userArticles.length) return false;
+        return correctArticles.every((a, i) => a === userArticles[i]);
+      })();
 
       if (isCorrect) {
         setFeedback('correct');

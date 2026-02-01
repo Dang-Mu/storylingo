@@ -171,29 +171,34 @@ export const prepareWordOrderItem = (sentence: Sentence): WordOrderItem => {
   // 단어 배열 섞기
   const shuffledWords = shuffleArray([...words]);
 
-  // 섞인 단어들의 원본 인덱스 찾기
-  const shuffledCorrectOrder: number[] = [];
+  // 섞인 배열 각 위치의 원본 인덱스: origIndexByShuffledPos[i] = 원본에서의 인덱스
+  const origIndexByShuffledPos: number[] = [];
   const usedIndices = new Set<number>();
-  
   for (const shuffledWord of shuffledWords) {
     for (let i = 0; i < words.length; i++) {
       if (words[i] === shuffledWord && !usedIndices.has(i)) {
-        shuffledCorrectOrder.push(i);
+        origIndexByShuffledPos.push(i);
         usedIndices.add(i);
         break;
       }
     }
   }
 
+  // 정답 선택 순서: 출력 위치 j에 선택해야 할 섞인 배열 인덱스 (UI·채점에서 사용)
+  const correctOrder = Array.from(
+    { length: origIndexByShuffledPos.length },
+    (_, j) => origIndexByShuffledPos.indexOf(j)
+  );
+
   console.log('[quizUtils] Word order item prepared:', {
     originalWords: words,
     shuffledWords: shuffledWords,
-    correctOrder: shuffledCorrectOrder
+    correctOrder
   });
 
   return {
     sentence,
     words: shuffledWords,
-    correctOrder: shuffledCorrectOrder
+    correctOrder
   };
 };
